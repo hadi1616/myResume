@@ -1,7 +1,14 @@
-function Works(){
-    return(
-        <p>aaa</p>
-        )
+import Navbar from '../NavBar/NavBar'
+
+
+function Works() {
+
+    return (
+        <>
+            <Navbar />
+            <p>this is works</p>
+        </>
+    )
 }
 
-export default Works;
+export default Works

@@ -47,12 +47,6 @@ import { useHistory } from "react-router-dom";
       justifyContent: 'center',
       padding: theme.spacing(0.5),
     },
-
-    // demo3:{
-    //     '&:hover':{
-    //         backgroundColor:'orange'
-    //     }
-    // }
   }));
   
   export default function CustomizedTabs() {
@@ -62,26 +56,22 @@ import { useHistory } from "react-router-dom";
   
     const handleChange = (event, newValue) => {
       setValue(newValue);
-      if(newValue===0)
-        <Link to="/">Home</Link>
-        
-        if(newValue===1)
-        <Link to="/About">About</Link>
-      console.log(newValue)
+      
     };
   
     return (
       <div className={classes.root}>
         <div className={classes.demo2}>
           <StyledTabs value={value} onChange={handleChange} aria-label="styled tabs example">
-            <StyledTab label="Home" className={classes.demo3} onClick={(e) => { history.push("/"); }}/>
-            <StyledTab label="About" className={classes.demo3} onClick={(e) => { history.push("/about"); }}/>
-            <StyledTab label="Resume" className={classes.demo3} onClick={(e) => { history.push("/resume"); }}/>
-            <StyledTab label="Works" className={classes.demo3} onClick={(e) => { history.push("/works"); }}/>
-            <StyledTab label="Contact" className={classes.demo3} onClick={(e) => { history.push("/contact"); }}/>
+            <StyledTab label="Home" className={classes.indicator} onClick={(e) => { history.push("/"); }}/>
+            <StyledTab label="About" className={classes.indicator} onClick={(e) => { history.push("/about"); }}/>
+            <StyledTab label="Resume" className={classes.indicator} onClick={(e) => { history.push("/resume"); }}/>
+            <StyledTab label="Works" className={classes.indicator} onClick={(e) => { history.push("/works"); }}/>
+            <StyledTab label="Contact" className={classes.deindicatormo3} onClick={(e) => { history.push("/contact"); }}/>
           </StyledTabs>
           <Typography className={classes.padding} />
         </div>
       </div>
+      
     );
   }

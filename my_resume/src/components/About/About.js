@@ -5,7 +5,7 @@ function About(){
     return(
         <>
         <Navbar/>
-        <p>hello world </p>
+        <p>About</p>
 </>
         )
 }

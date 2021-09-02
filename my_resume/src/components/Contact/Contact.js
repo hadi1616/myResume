@@ -1,7 +1,14 @@
-function Contact(){
-    return(
-        <p>aaa</p>
-        )
+import Navbar from '../NavBar/NavBar'
+
+
+function Contact() {
+
+    return (
+        <>
+            <Navbar />
+            <p>this is contact</p>
+        </>
+    )
 }
 
-export default Contact;
+export default Contact
