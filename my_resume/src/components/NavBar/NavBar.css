@@ -1,3 +1,4 @@
-.About{
-    color: black
+.navBar{
+    display: relative;
+    position: sticky;
 }

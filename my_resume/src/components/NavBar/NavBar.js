@@ -1,25 +1,25 @@
 import React from 'react';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
-import Tabs from '@material-ui/core/Tabs';
+// import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import { Link } from 'react-router-dom';
-import NavBar from "../NavBar/NavBar.css"
-import { useHistory } from "react-router-dom";
+// import Typography from '@material-ui/core/Typography';
+// import { Link } from 'react-router-dom';
+// import NavBar from "../NavBar/NavBar.css"
+import { useHistory } from "react-router-dom"; //i can make the nav bar sticky to but it on the home component and stay scrolling down to the other components
 
 
-  const StyledTabs = withStyles({
-    indicator: {
-      display: 'flex',
-      justifyContent: 'center',
-      backgroundColor: 'transparent',
-      '& > span': {
-        maxWidth: 55,
-        width: '100%',
-        backgroundColor: '#fa9d39',
-      },
-    },
-  })((props) => <Tabs {...props} TabIndicatorProps={{ children: <span /> }} />);
+  // const StyledTabs = withStyles({
+  //   indicator: {
+  //     display: 'flex',
+  //     justifyContent: 'center',
+  //     backgroundColor: 'transparent',
+  //     '& > span': {
+  //       maxWidth: 55,
+  //       width: '100%',
+  //       backgroundColor: '#fa9d39',
+  //     },
+  //   },
+  // })((props) => <Tabs {...props} TabIndicatorProps={{ children: <span /> }} />);
   
   const StyledTab = withStyles((theme) => ({
     root: {
@@ -46,30 +46,31 @@ import { useHistory } from "react-router-dom";
       display: 'flex',
       justifyContent: 'center',
       padding: theme.spacing(0.5),
+      position:'sticky',
     },
   }));
   
   export default function CustomizedTabs() {
     const history = useHistory();
     const classes = useStyles();
-    const [value, setValue] = React.useState(0);
+    // const [value, setValue] = React.useState(0);
   
-    const handleChange = (event, newValue) => {
-      setValue(newValue);
+    // const handleChange = (event, newValue) => {
+    //   setValue(newValue);
       
-    };
+    // };
   
     return (
       <div className={classes.root}>
         <div className={classes.demo2}>
-          <StyledTabs value={value} onChange={handleChange} aria-label="styled tabs example">
+          {/* <StyledTabs value={value} onChange={handleChange} aria-label="styled tabs example"> */}
             <StyledTab label="Home" className={classes.indicator} onClick={(e) => { history.push("/"); }}/>
             <StyledTab label="About" className={classes.indicator} onClick={(e) => { history.push("/about"); }}/>
-            <StyledTab label="Resume" className={classes.indicator} onClick={(e) => { history.push("/resume"); }}/>
+            {/* <StyledTab label="Resume" className={classes.indicator} onClick={(e) => { history.push("/resume"); }}/> */}
             <StyledTab label="Works" className={classes.indicator} onClick={(e) => { history.push("/works"); }}/>
             <StyledTab label="Contact" className={classes.deindicatormo3} onClick={(e) => { history.push("/contact"); }}/>
-          </StyledTabs>
-          <Typography className={classes.padding} />
+          {/* </StyledTabs> */}
+          {/* <Typography className={classes.padding} /> */}
         </div>
       </div>
       

@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgb(195, 230, 218);
+    height: 1010px;
+    font-size: large;
+
+}.personalPic{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 201.5px;
+    height: 208px;
+    border-radius: 50%;
+}
+
+.lookingFor{
+    font-size:x-large;
+    font-weight: 645;
+}

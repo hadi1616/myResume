@@ -5,7 +5,7 @@ function Works() {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <p>this is works</p>
         </>
     )

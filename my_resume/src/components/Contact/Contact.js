@@ -5,7 +5,7 @@ function Contact() {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <p>this is contact</p>
         </>
     )

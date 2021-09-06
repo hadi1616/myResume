@@ -4,7 +4,7 @@ function Resume() {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <p>resume</p>
         </>
     )
