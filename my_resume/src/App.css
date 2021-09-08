@@ -1,11 +1,31 @@
  html{ 
-  background: url(./image/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg) no-repeat center center fixed; 
+  /* background: url(./image/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -moz-background-size:cover ;
-  background-size: cover;
+  background-size: cover; */
 
-} 
+
+
+  background-image: url(./image/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
+
+        background-position: center center;
+
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
+  
+      /* Media query for mobile devices  */
+      @media only screen and (max-width: 767px) {
+        body {
+          background-image: url(./image/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
+        }
+      }
+ 
+
+
+
 
   .App {
     text-align: center;

@@ -4,19 +4,34 @@
     flex-direction: column;
     margin: 0 auto;
     background-color: rgb(195, 230, 218);
-    height: 1010px;
+    height: 1999px;
     font-size: large;
+
+ 
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -moz-background-size:cover ;
+    background-size: cover;
 
 }.personalPic{
     display: flex;
     margin: 0 auto;
     margin-top: 50px;
     width: 201.5px;
-    height: 208px;
+    height: 206px;
     border-radius: 50%;
 }
 
 .lookingFor{
     font-size:x-large;
     font-weight: 645;
+}
+.downloadButton{
+    margin: 0 auto;
+    width: 144px;
+    height: 47px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:20px;
+    border-radius: 13px;
+    border: 2px yellow solid  ;
 }

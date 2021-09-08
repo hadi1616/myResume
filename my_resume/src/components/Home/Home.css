@@ -12,21 +12,15 @@
 
 .SceContainer{
     padding-top: 29px;
-    background: url(../../image/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg) no-repeat center center ; 
-     background-repeat: no-repeat;
+    /* background: url(../../image/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg) no-repeat center center ;  */
+    background-repeat: no-repeat;
     background-size:cover;
-    height: 1010px;
+    /* height: 950px; */
     padding-top: -50px;
 
 }
 
-/* .SceContainer{
-    max-width: 1200px;
-    position: absolute;
-    top: 200;
-    left: 70;
 
-} */
 
 .homePageTitle{
     color: whitesmoke;
