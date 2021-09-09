@@ -6,21 +6,25 @@
     background-color: rgb(195, 230, 218);
     height: 1999px;
     font-size: large;
-
- 
+    
+    
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -moz-background-size:cover ;
     background-size: cover;
-
-}.personalPic{
+}    
+.AvatarDiv{
+        width: fit-content;
+        margin:4% 0 3% 45%;
+    }
+/* .personalPic{
     display: flex;
     margin: 0 auto;
     margin-top: 50px;
     width: 201.5px;
     height: 206px;
     border-radius: 50%;
-}
+} */
 
 .lookingFor{
     font-size:x-large;
@@ -31,7 +35,13 @@
     width: 144px;
     height: 47px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top:20px;
+    margin-top:60px;
     border-radius: 13px;
-    border: 2px yellow solid  ;
+    border: 2.2px rgb(129, 129, 127) solid  ;
+    transition: transform 0.8s;
+}
+
+.downloadButton:hover{
+    cursor: pointer;
+    transform: scale(1.3);
 }
