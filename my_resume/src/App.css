@@ -1,6 +1,7 @@
  html{
 
    background: url(./image/google.jpg) no-repeat center center fixed; 
+   /* background-color: rgba(129, 129, 127, 0.548); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,11 +11,15 @@
       /* Media query for mobile devices  */
       @media only screen and (max-width: 767px) {
         body {
-          background-image: url(./image/google.jpg);
+          background-image: url(./image/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
         }
       }
    .App {
     text-align: center;
+  }
+
+  body{
+    overflow: hidden;
   }
 
 

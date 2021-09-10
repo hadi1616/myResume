@@ -1,21 +1,22 @@
 import React from "react";
+import '../progress/Progress.css'
 
 const ProgressBar = (props) => {
-  const { bgcolor, completed } = props;
+  const { bgcolor, completed, language } = props;
 
   const containerStyles = {
-    height: 20,
-    width: '20%',
+    height: 21,
+    width: '30%',
     backgroundColor: "#e0e0de",
-    borderRadius: 50,
-    margin: 50
+    borderRadius: '7px',
+    margin: 47
   }
 
   const fillerStyles = {
     height: '100%',
     width: `${completed}%`,
     backgroundColor: bgcolor,
-    borderRadius: 'inherit',
+    borderRadius: '7px',
     textAlign: 'right'
   }
 
@@ -26,11 +27,14 @@ const ProgressBar = (props) => {
   }
 
   return (
-    <div style={containerStyles}>
-      <div style={fillerStyles}>
-        <span style={labelStyles}>{`${completed}%`}</span>
+    // <div className={"ProgressBar"}>
+      <div style={containerStyles}>
+        <div style={fillerStyles}>
+          <span style={labelStyles}>{`${completed}%`}</span>
+          <span style={labelStyles}>{`${language}`}</span>
+        </div>
       </div>
-    </div>
+    // </div>
   );
 };
 

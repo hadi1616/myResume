@@ -1,0 +1,5 @@
+.ProgressBar{
+    display: flex;  
+    flex-wrap: wrap;
+    background-color: rgba(156, 160, 159, 0.123);
+}
