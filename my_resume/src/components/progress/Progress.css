@@ -1,5 +1,11 @@
 .ProgressBar{
     display: flex;  
     flex-wrap: wrap;
-    background-color: rgba(156, 160, 159, 0.123);
+    justify-content: space-around;
+    height: 24px;
+    background-color: rgba(156, 160, 156, 0);
+}
+
+.title{
+    margin-right:5px;
 }

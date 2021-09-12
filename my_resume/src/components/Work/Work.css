@@ -1,0 +1,22 @@
+.WorkContainer{
+display: flex;
+flex-direction: column;
+margin:55px 34px 0 34px  ;
+}
+
+h2{
+    color: #d88a46;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.pColor{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0 auto;
+    width: 268px;
+    padding-top: 20px;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Tab from '@material-ui/core/Tab';
 import { useHistory } from "react-router-dom"; //i can make the nav bar sticky to but it on the home component and stay scrolling down to the other components
-
+import '../NavBar/NavBar.css'
 
 
 const StyledTab = withStyles((theme) => ({
@@ -14,6 +14,9 @@ const StyledTab = withStyles((theme) => ({
     marginRight: theme.spacing(1),
     '&:focus': {
       opacity: 1,
+      // color:'#0000',
+      color:'#db5688',
+      fontWeight:'650'
     },
   },
 }))((props) => <Tab disableRipple {...props} />);
