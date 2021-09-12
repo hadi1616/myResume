@@ -14,8 +14,9 @@ const StyledTab = withStyles((theme) => ({
     marginRight: theme.spacing(1),
     '&:focus': {
       opacity: 1,
-      // color:'#0000',
-      color:'#db5688',
+      color:'#0000',
+      // color:'#db5688',
+      // color:'#d1f257',
       fontWeight:'650'
     },
   },
