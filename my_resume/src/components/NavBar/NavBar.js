@@ -48,8 +48,8 @@ export default function CustomizedTabs() {
         <StyledTab label="Home" className={classes.indicator} onClick={(e) => { history.push("/"); }} />
         <StyledTab label="About & Resume" className={classes.indicator} onClick={(e) => { history.push("/about"); }} />
         <StyledTab label="Education" className={classes.indicator} onClick={(e) => { history.push("/education"); }} />
-        <StyledTab label="Works" className={classes.indicator} onClick={(e) => { history.push("/works"); }} />
-        <StyledTab label="Contact" className={classes.deindicatormo3} onClick={(e) => { history.push("/contact"); }} />
+        <StyledTab label="Projects" className={classes.indicator} onClick={(e) => { history.push("/projects"); }} />
+        <StyledTab label="Experience" className={classes.deindicatormo3} onClick={(e) => { history.push("/experience"); }} />
       </div>
     </div>
 
