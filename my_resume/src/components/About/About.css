@@ -14,18 +14,22 @@
     -moz-background-size:cover ;
     background-size: cover;
 }    
+
+h1{
+    padding-right:18px ;
+}
+
+.aboutmeH1{
+    color:rgb(90, 224, 141) ;
+}
+
+
 .AvatarDiv{
         width: fit-content;
-        margin:4% 0 3% 45%;
+        margin:0 0 0 45%;
     }
-/* .personalPic{
-    display: flex;
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 201.5px;
-    height: 206px;
-    border-radius: 50%;
-} */
+
+
 .aboutMe{
     color: rgb(248, 242, 242);
 }
@@ -33,6 +37,26 @@
 .lookingFor{
     font-size:x-large;
     font-weight: 645;
+}
+
+.ContactMeContainer{
+    /* margin-top: 14px; */
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-grow: inherit;
+    flex-direction: column;
+}
+
+
+.ContactMe{
+    color: rgba(248, 242, 242, 0.226);
+    margin: 3px 0 0 0 ;
+}
+.contactMeH1{
+    color: rgb(90, 224, 141);
+    margin-top: 50px;
+    margin-bottom: 5px;
 }
 
 .downloadButton{
@@ -45,6 +69,35 @@
     border: 2.2px rgb(129, 129, 127) solid  ;
     transition: transform 0.8s;
 }
+
+/* .ContactMeContainer{
+    margin-top: 14px;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-grow: inherit;
+    flex-direction: column;
+} */
+
+/* .ContactMeSecContainer{
+    display: flex;
+    flex-direction: column;
+
+} */
+
+
+.ContactMe{
+    padding-left: 34px;
+    color: rgba(245, 243, 239, 0.836);
+    display: flex;
+    padding-bottom: 3px;
+    margin: 3px 0 0 0 ;   
+}
+
+.infoAboutMe{
+    color:lightcoral;
+}
+
 
 .downloadButton:hover{
     cursor: pointer;

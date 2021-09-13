@@ -1,6 +1,6 @@
  html{
 
-   background: url(./image/be.jpg) no-repeat center center fixed; 
+   background: url(./image/blacklaptop.jpg) no-repeat center center fixed; 
    /* background-color: rgba(129, 129, 127, 0.548); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -11,7 +11,7 @@
       /* Media query for mobile devices  */
       @media only screen and (max-width: 767px) {
         body {
-          background-image: url(./image/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
+          background-image: url(./image/blacklaptop.jpg);
         }
       }
    .App {

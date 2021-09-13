@@ -5,10 +5,12 @@ import Slide from "react-reveal";
 
 function Works() {
 
+    // color="#db5688"
+
     return (
         <div>
             <h1>Check out my projects</h1>
-            <hr size="4" width="17.5%" color="#db5688"/>
+            {/* <hr size="4.5" width="25%" color="#BSSae08d"/> */}
             <div className={'WorksContainer'}>
 
                 <Slide top duration={1100}>

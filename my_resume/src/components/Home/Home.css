@@ -18,13 +18,15 @@
     background-size:cover;
     /* height: 950px; */
     padding-top: -50px;
-
 }
 
 
 
 .homePageTitle{
-    color: whitesmoke;
+    /* color: rgba(243, 246, 62, 0.945); */
+    color:rgba(90, 224, 141, 0.877);
+    /* color:rgba(197, 248, 58, 0.993); */
+    /* color: rgb(244, 248, 16); */
     font-family:'Times New Roman", Times, serif';
     font-size: 50px;
     cursor: pointer;
@@ -34,7 +36,7 @@
 }
 
 .homePageTitle:hover{
-    color:rgb(231, 165, 58);
+    /* color:rgb(231, 165, 58); */
     transform: scale(1.2);
 }
 

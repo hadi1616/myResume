@@ -30,8 +30,8 @@ function Home() {
             <div className={'SceContainer'}>
                 <div className={'H12'}>
                 <h1 className={'homePageTitle'} onClick={(e) => { history.push("/about") }}>I'm {fullName}</h1>
-                <p className={"personalDescription"}>Practical engineer with high motivation and passion for succeeding and  <br/>progressing, excellent communication skills with team members , high responsibility. <br/>Looking for entry level positions in the Front-end , Back-end , Full stack developer
-                </p>
+                <p className={"personalDescription"}> I'm a Full Stack developer.<br/>
+                    I Have knowledge and experience in React, JavaScript, Node.js, Express.js, <br/>CSS and SCSS  also I am with a high level of self-learning skills. Looking for a junior position.</p>
                 </div>
                 <hr size="2.5" width="45%" color="#A6A4A4" className={'hrLine'}/>
                 <div className={'links'}>
