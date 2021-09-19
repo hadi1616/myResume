@@ -17,6 +17,16 @@ h2{
     font-size: large;
     font-family:'Courier New', Courier, monospace;
     margin: 0 auto;
-    width: 268px;
+    width: 272px;
     padding-top: 20px;
+}
+.LinkContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Link{
+    /* margin-top: -19px; */
+    padding-bottom: -9px;
+    color: aquamarine;
 }

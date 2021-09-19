@@ -1,0 +1,26 @@
+.ExperienceContainer{
+display: flex;
+flex-direction: column;
+margin:14px 90px 0 90px  ;
+}
+
+h2{
+    color: #eb9850;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+hr{
+    margin-top: -4px;
+}
+
+
+.workDescription{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0 auto;
+    width:fit-content;
+    padding-top: 16px;
+}
