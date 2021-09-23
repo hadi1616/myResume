@@ -1,4 +1,3 @@
-import Navbar from '../NavBar/NavBar'
 
 function Resume() {
 

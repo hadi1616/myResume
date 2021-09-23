@@ -7,6 +7,7 @@ import linkedin from '../../image/linkedin2.png'
 import gmail from '../../image/gmail3.jpg'
 import '../Home/Home.css'
 import { useHistory } from "react-router-dom";
+import SendEmail from '../SendEmail/SendEmail';
 
 function Home() {
 
@@ -37,8 +38,8 @@ function Home() {
                 <div className={'links'}>
                     <img className={'gitIcon'} src={git} alt="gitIcon" onClick={githubRedirect}/>
                     <img className={'linkedin'} src={linkedin} alt="linkedin"  onClick={linkedinRedirect}/>
-                    <img className={'gmail'} src={gmail} alt="gmail" onClick={gmailRedirect}/>
-                    {/* <img className={'gmail'} src={gmail} alt="gmail" onClick={()=>history.push('/sendEmail')}/> */}
+                    {/* <img className={'gmail'} src={gmail} alt="gmail" onClick={gmailRedirect}/> */}
+                    <img className={'gmail'} src={gmail} alt="gmail" onClick={()=>history.push('/sendEmail')}/>
                     
                 </div>
             </div>

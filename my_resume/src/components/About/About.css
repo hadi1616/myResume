@@ -1,3 +1,8 @@
+:root {
+    --h1Colors:#f5a25a;
+  }
+
+
 .container{
     display: flex;
     margin-top: 120px;
@@ -20,7 +25,7 @@ h1{
 }
 
 .aboutmeH1{
-    color:rgb(90, 224, 141) ;
+    color: var(--h1Colors) ;
 }
 
 
@@ -54,7 +59,8 @@ h1{
     margin: 3px 0 0 0 ;
 }
 .contactMeH1{
-    color: rgb(90, 224, 141);
+    /* color: rgb(90, 224, 141); */
+    color: var(--h1Colors);
     margin-top: 50px;
     margin-bottom: 5px;
 }

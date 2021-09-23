@@ -1,16 +1,23 @@
-import Navbar from '../NavBar/NavBar'
 import '../Work/Work.css'
 
 function Work({workTitle , githubLink ,websiteLink ,workDescription  }) {
 
+    function webSiteRedirectionFunction(){
+        window.open(websiteLink);
+    }
+
+    function githubRedirectionFunction(){
+        window.open(githubLink);
+    }
+
     return (
         <div className={'WorkContainer'}>
             <h2>{workTitle}</h2>
-            <hr size="2.5" width="60%" color="#A6A4A4"/>
+            <hr size="2.5" width="64%" color="#A6A4A4"/>
             <p className={'pColor'}>{workDescription}</p>
             <div className={'LinkContainer'}>
-            <h4><a href={websiteLink} className={'Link'}>Website Link</a></h4>
-            <h4><a href={githubLink} className={'Link'}>Github Repository</a></h4>
+            <p  className={'Link'} onClick={webSiteRedirectionFunction}>website</p>
+            <p  className={'Link'} onClick={githubRedirectionFunction}>Github Repository</p>
             </div>
         </div>
     )

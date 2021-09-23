@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../Experience/Experience.css'
 import ExperienceComponent from '../ExperienceComponent/ExperienceComponent.js'
+import Slide from "react-reveal";
 
 
 function Experience() {
@@ -15,10 +16,15 @@ function Experience() {
 
     return (
         <div className={'ExperienceContainer'}>
-
+             <Slide top duration={1100}>
+            <h1 className={'ExperienceH1'}>Experience</h1>
+            </Slide>
+            <Slide right duration={1100}>
             <ExperienceComponent workTitle={`${experienceData.workTitle.first}`} workDescription={`${experienceData.workDescription.first}`} className={'firstJob'}/>
+            </Slide>
+            <Slide left duration={1100}>
             <ExperienceComponent workTitle={`${experienceData.workTitle.second}`} workDescription={`${experienceData.workDescription.second}`} className={'secondJob'}/>
-
+            </Slide>
         </div>
     )
 }

@@ -26,7 +26,8 @@ h2{
 }
 
 .Link{
-    /* margin-top: -19px; */
     padding-bottom: -9px;
     color: aquamarine;
+    padding:0 8px 0 12px;
+    cursor: pointer;
 }
