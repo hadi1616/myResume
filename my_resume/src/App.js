@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home/Home.js'
 import About from './components/About/About.js'
-import Resume from './components/Resume/Resume.js'
+// import Resume from './components/Resume/Resume.js'
 import Projects from './components/Projects/Projects.js'
 import Education from './components/Education/Education.js'
 import Experience from './components/Experience/Experience.js'
@@ -27,15 +27,6 @@ function App() {
         </Switch>
       </div>
     </Router>
-    // <div className={"root"}>
-
-    //   <Navbar className={'navBar'}/>
-    //     <Home className={'Home'}/>
-    //     <About className={'About'}/>
-    //     <Resume className={'Resume'}/>
-    //     <Works className={'Works'}/>
-    //     <Contact className={'Contact'}/>
-    //     </div>
   );
 }
 

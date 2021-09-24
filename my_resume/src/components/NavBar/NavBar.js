@@ -12,12 +12,16 @@ const StyledTab = withStyles((theme) => ({
     fontWeight: theme.typography.fontWeightRegular,
     fontSize: theme.typography.pxToRem(14),
     marginRight: theme.spacing(1),
+    ['@media (max-width:780px)']: { // eslint-disable-line no-useless-computed-key
+      marginRight: theme.spacing(0),
+      fontSize: theme.typography.pxToRem(10),
+    },
     '&:focus': {
       opacity: 1,
-      color:'#0000',
+      color: '#0000',
       // color:'#db5688',
       // color:'#d1f257',
-      fontWeight:'650'
+      fontWeight: '650'
     },
   },
 }))((props) => <Tab disableRipple {...props} />);

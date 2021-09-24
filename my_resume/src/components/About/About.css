@@ -109,3 +109,10 @@ h1{
     cursor: pointer;
     transform: scale(1.3);
 }
+
+@media screen and (max-width: 800px) {
+    .downloadButton:hover{
+        cursor: pointer;
+        transform: scale(1.8);
+    }
+  }

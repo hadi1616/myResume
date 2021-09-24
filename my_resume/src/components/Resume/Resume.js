@@ -1,12 +1,12 @@
 
-function Resume() {
+// function Resume() {
 
-    return (
-        <>
-            {/* <Navbar /> */}
-            <p>resume</p>
-        </>
-    )
-}
+//     return (
+//         <>
+//             {/* <Navbar /> */}
+//             <p>resume</p>
+//         </>
+//     )
+// }
 
-export default Resume
+// export default Resume
