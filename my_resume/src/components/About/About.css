@@ -110,9 +110,14 @@ h1{
     transform: scale(1.3);
 }
 
+.downloadCVButton{
+    color: black;
+}
+
+
 @media screen and (max-width: 800px) {
     .downloadButton:hover{
         cursor: pointer;
-        transform: scale(1.8);
+        transform: scale(1.4);
     }
   }

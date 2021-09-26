@@ -91,8 +91,8 @@ function About() {
 
 
                                 <Slide right duration={1100}>
-                                        <Button onClick={pdfGenerate} className={'downloadButton'}> Download resume</Button>
-                                        <a href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf'>mario</a>
+                                        <Button onClick={pdfGenerate} className={'downloadButton'}> <a href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}>Download resume</a></Button>
+                                        
                                 </Slide>
                         </div>
                 </div>
