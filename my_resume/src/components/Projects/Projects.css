@@ -3,7 +3,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 flex-wrap: wrap;
-margin-top: 100px;
+margin-top: 35px;
 }
 
 h1{
@@ -11,6 +11,8 @@ h1{
     align-items: center;
     font-weight: 500;
     color: #f5a25a;
+    margin:auto 0;
+    padding-top: 30px;
     /* color: #12d6b5; */
     /* color: rgb(90, 224, 141); */
 }

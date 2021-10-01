@@ -19,8 +19,8 @@ function Works() {
         }
     )
     return (
-        <div>
-            <h1>Check out my projects</h1>
+        <div className={'projectContainer'}>
+            <h1 className={'h1Project'}>Check out my projects</h1>
             {/* <hr size="4.5" width="25%" color="#BSSae08d"/> */}
             <div className={'WorksContainer'}>
 

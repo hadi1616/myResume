@@ -9,7 +9,7 @@
     /* justify-content: center; */
     flex-direction: column;
     margin: 0 auto;
-    background-color: rgba(156, 160, 159,  0.123);
+    /* background-color: rgba(156, 160, 159,  0.123); */
     height: 1900px;
     font-size: large;
     
@@ -26,12 +26,15 @@ h1{
 
 .aboutmeH1{
     color: var(--h1Colors) ;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
 }
 
 
 .AvatarDiv{
         width: fit-content;
-        margin:0 0 0 45%;
+        padding-top:25px;
+        margin: 0 auto;
     }
 
 
@@ -61,8 +64,9 @@ h1{
 .contactMeH1{
     /* color: rgb(90, 224, 141); */
     color: var(--h1Colors);
-    margin-top: 50px;
-    margin-bottom: 5px;
+    margin-top: 13px;
+    margin-bottom: 1px;
+    padding-top:10px;
 }
 
 .downloadButton{
@@ -70,7 +74,7 @@ h1{
     width: 144px;
     height: 47px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top:60px;
+    margin-top: 30px;
     border-radius: 13px;
     border: 2.2px rgb(129, 129, 127) solid  ;
     transition: transform 0.8s;
@@ -85,11 +89,10 @@ h1{
     flex-direction: column;
 } */
 
-/* .ContactMeSecContainer{
-    display: flex;
-    flex-direction: column;
+.ContactMeSecContainer{
+ margin: 8px 0 5px 0 ;
 
-} */
+}
 
 
 .ContactMe{

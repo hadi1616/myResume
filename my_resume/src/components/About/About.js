@@ -4,8 +4,6 @@ import personalImg from '../../image/linkedin pic3.jpeg'
 import { Button } from 'reactstrap';
 import jsPDF from 'jspdf'
 import myResume from '../Resume/Hadi_Moallem_Resume (3).pdf'
-
-
 import Tab from '@material-ui/core/Tab';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import { Avatar } from '@material-ui/core';
@@ -45,7 +43,7 @@ function About() {
         const classes = useStyles();
 
         return (
-                <div>
+                <>
                         <Slide right duration={1100}>
                                 <h1 className={'aboutmeH1'}>About Me</h1>
                         </Slide>
@@ -95,7 +93,7 @@ function About() {
                                         
                                 </Slide>
                         </div>
-                </div>
+                </>
         )
 }
 

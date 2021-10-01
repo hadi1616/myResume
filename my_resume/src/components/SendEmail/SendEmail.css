@@ -12,6 +12,7 @@
 }
 
 .arrowImg{
+    margin-top:20px;
     width: 58px;
     border-radius: 50%;
 }
@@ -34,8 +35,9 @@
 }
 
 .imgButton{
-    width: 30px;
-    height: 30px;
+    margin-top:24px;
+    width: 46px;
+    height: 46px;
     background-color: transparent;
     cursor: pointer;
 }

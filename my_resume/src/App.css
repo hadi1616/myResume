@@ -1,11 +1,12 @@
  html{
 
-   background: url(./image/blacklaptop.jpg) no-repeat center center fixed; 
+  background-color: 		#272727;
+   /* background: url(./image/blacklaptop.jpg) no-repeat center center fixed;  */
    /* background-color: rgba(129, 129, 127, 0.548); */
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
       }
   
       /* Media query for mobile devices  */

@@ -8,20 +8,20 @@ import '../NavBar/NavBar.css'
 const StyledTab = withStyles((theme) => ({
   root: {
     textTransform: 'none',
-    color: '#fff',
+    color: 'rgb(248, 242, 242)  ',
     fontWeight: theme.typography.fontWeightRegular,
     fontSize: theme.typography.pxToRem(14),
     marginRight: theme.spacing(1),
     ['@media (max-width:780px)']: { // eslint-disable-line no-useless-computed-key
       marginRight: theme.spacing(0),
-      fontSize: theme.typography.pxToRem(10),
+      fontSize: theme.typography.pxToRem(12),
     },
     '&:focus': {
       opacity: 1,
       color: '#0000',
       // color:'#db5688',
       // color:'#d1f257',
-      fontWeight: '650'
+      // fontWeight: '650'
     },
   },
 }))((props) => <Tab disableRipple {...props} />);
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0),
   },
   demo2: {
-    backgroundColor: '#343d40',
+    backgroundColor: '#272727',
     display: 'flex',
     justifyContent: 'center',
     padding: theme.spacing(0),

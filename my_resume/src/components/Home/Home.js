@@ -34,7 +34,7 @@ function Home() {
                 <p className={"personalDescription"}> I'm a Full Stack developer.<br/>
                     I Have knowledge and experience in React, JavaScript, Node.js, Express.js, <br/>CSS and SCSS  also I am with a high level of self-learning skills. Looking for a junior position.</p>
                 </div>
-                <hr size="2.5" width="45%" color="#A6A4A4" className={'hrLine'}/>
+                <hr size="2.5" width="45%" color="#f5a25a" className={'hrLine'}/>
                 <div className={'links'}>
                     <img className={'gitIcon'} src={git} alt="gitIcon" onClick={githubRedirect}/>
                     <img className={'linkedin'} src={linkedin} alt="linkedin"  onClick={linkedinRedirect}/>
