@@ -12,7 +12,7 @@ h1{
     font-weight: 500;
     color: #f5a25a;
     margin:auto 0;
-    padding-top: 30px;
+    padding-top: 8px;
     /* color: #12d6b5; */
     /* color: rgb(90, 224, 141); */
 }
@@ -20,3 +20,17 @@ h1{
 hr{
     border-radius: 13px;
 }
+
+/*for desktop*/
+@media screen and (max-width: 768px) {
+
+.h1{
+    padding-top:10px;
+}
+
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+
+  }

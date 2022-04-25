@@ -80,14 +80,6 @@ h1{
     transition: transform 0.8s;
 }
 
-/* .ContactMeContainer{
-    margin-top: 14px;
-    width: fit-content;
-    margin: 0 auto;
-    display: flex;
-    flex-grow: inherit;
-    flex-direction: column;
-} */
 
 .ContactMeSecContainer{
  margin: 8px 0 5px 0 ;
@@ -119,6 +111,42 @@ h1{
 
 
 @media screen and (max-width: 800px) {
+
+    .aboutmeH1{
+        font-size:24px;
+        padding-top: 1px;
+    }
+
+    .AvatarDiv{
+        padding-top:9px;
+    }
+
+    p{
+      margin: 7px 0 7px 0;  
+      padding: 2px 7px 2px 7px;
+    }
+
+    .aboutMe{
+        font-size:13px;
+    }
+
+    .lookingFor{
+        font-size: 15px;
+    }
+
+    .contactMeH1{
+        font-size: 19px;
+        padding: 5px 18px 0 0 ;
+        margin: 5px 0 1px 0;
+    }
+
+    .downloadButton{
+        margin:15px 0 0 0 ;
+        width: 134px;
+        height: 39px;
+    }
+
+
     .downloadButton:hover{
         cursor: pointer;
         transform: scale(1.4);

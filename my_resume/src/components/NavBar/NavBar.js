@@ -11,10 +11,11 @@ const StyledTab = withStyles((theme) => ({
     color: 'rgb(248, 242, 242)  ',
     fontWeight: theme.typography.fontWeightRegular,
     fontSize: theme.typography.pxToRem(14),
-    marginRight: theme.spacing(1),
+    // marginRight: theme.spacing(1),
     ['@media (max-width:780px)']: { // eslint-disable-line no-useless-computed-key
       marginRight: theme.spacing(0),
-      fontSize: theme.typography.pxToRem(12),
+      marginLeft:theme.spacing(-1),
+      fontSize: theme.typography.pxToRem(8),
     },
     '&:focus': {
       opacity: 1,
@@ -40,6 +41,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0),
     position: 'sticky',
   },
+  
 }));
 
 export default function CustomizedTabs() {
@@ -49,11 +51,11 @@ export default function CustomizedTabs() {
   return (
     <div className={classes.root}>
       <div className={classes.demo2}>
-        <StyledTab label="Home" className={classes.indicator} onClick={(e) => { history.push("/"); }} />
-        <StyledTab label="About & Resume" className={classes.indicator} onClick={(e) => { history.push("/about"); }} />
-        <StyledTab label="Education" className={classes.indicator} onClick={(e) => { history.push("/education"); }} />
-        <StyledTab label="Projects" className={classes.indicator} onClick={(e) => { history.push("/projects"); }} />
-        <StyledTab label="Experience" className={classes.deindicatormo3} onClick={(e) => { history.push("/experience"); }} />
+        <StyledTab label="Home" className={classes.indicator} className={"Home"} onClick={(e) => { history.push("/"); }} />
+        <StyledTab label="About & Resume" className={classes.indicator} className={"About & Resume"} onClick={(e) => { history.push("/about"); }} />
+        <StyledTab label="Education" className={classes.indicator} className={"Education"} onClick={(e) => { history.push("/education"); }} />
+        <StyledTab label="Projects" className={classes.indicator} className={"Projects"} onClick={(e) => { history.push("/projects"); }} />
+        <StyledTab label="Experience" className={classes.deindicatormo3} className={"Experience"} onClick={(e) => { history.push("/experience"); }} />
       </div>
     </div>
 

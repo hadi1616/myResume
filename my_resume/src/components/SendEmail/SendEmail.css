@@ -21,10 +21,11 @@
     display: flex;
     justify-content:left;
     margin-top: var(--margin-top);
-    color:#f2f261 ;
+    color:#f5a25a ;
     /* color:#F1B24A ; */
     font-weight: 600;
-    font-size: larg;
+    font-size: large;
+    margin-bottom: 3px;
 }
 
 .sendButton{
@@ -42,8 +43,16 @@
     cursor: pointer;
 }
 
-.gmailInput{
-    width: 320px;
+.otherInput{
+    width: 300px;
     border-radius: 6px;
     height: 21px;
+}
+
+.gmailInput{
+    border-radius: 6px;
+    max-width: 350px;
+    min-width: 300px;
+    min-height: 70px;
+    max-height: 350px;
 }

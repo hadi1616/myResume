@@ -1,4 +1,16 @@
 .navBar{
+    width: 100%;
     display: relative;
     position: sticky;
 }
+
+
+
+/* @media screen and (min-width: 780px){
+    
+    .Home{
+        font-size: 3px ;
+        color: red;
+    }
+
+} */

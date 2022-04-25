@@ -31,8 +31,8 @@ function About() {
                 },
 
                 large: {
-                        width: theme.spacing(20),
-                        height: theme.spacing(20),
+                        width: theme.spacing(14),
+                        height: theme.spacing(14),
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
@@ -67,17 +67,6 @@ function About() {
 
                                         <div className={'ContactMeContainer'}>
                                                 <p className={'ContactMeSecContainer'}>
-
-                                                        {/* <span className={'ContactMe'}>{selfInformation.fullName + selfInformation.name}</span>
-                                                <span className={'ContactMe'}>{selfInformation.address + selfInformation.livingLocation}</span>
-                                                <span className={'ContactMe'}>{selfInformation.phone + selfInformation.phoneNumber}</span>
-                                                <span className={'ContactMe'}>{ selfInformation.Email + selfInformation.gmail}</span> */}
-
-                                                        {/* <span className={'ContactMe'}><b className={'infoAboutMe'}>Full Name </b>{ selfInformation.name}</span>
-                                                <span className={'ContactMe'}><b className={'infoAboutMe'}>Address </b>{ selfInformation.livingLocation}</span>
-                                                <span className={'ContactMe'}><b className={'infoAboutMe'}>Phone Number </b>{ selfInformation.phoneNumber}</span>
-                                                <span className={'ContactMe'}><b className={'infoAboutMe'}>Gmail : </b> {` ${"    "} ` + selfInformation.gmail}</span> */}
-
                                                         <span className={'ContactMe'}>{selfInformation.name}</span>
                                                         <span className={'ContactMe'}>{selfInformation.livingLocation}</span>
                                                         <span className={'ContactMe'}>{selfInformation.phoneNumber}</span>

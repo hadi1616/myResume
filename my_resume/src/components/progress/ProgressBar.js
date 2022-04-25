@@ -11,7 +11,7 @@ const ProgressBar = (props) => {
     borderRadius: '7px',
     // marginTop: 47,
     // margin:'100px 10px 10px 10px'
-    margin: 41,
+    margin: 21,
     border:'5px bold yellow'
   }
 

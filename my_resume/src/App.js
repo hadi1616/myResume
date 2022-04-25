@@ -6,7 +6,7 @@ import Projects from './components/Projects/Projects.js'
 import Education from './components/Education/Education.js'
 import Experience from './components/Experience/Experience.js'
 import SendEmail from './components/SendEmail/SendEmail.js'
-import Navbar from "./components/NavBar/NavBar";
+import Navbar from "./components/NarBar2/NavBar2";
 import '../src/App.css'
 
 

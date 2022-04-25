@@ -29,11 +29,6 @@
 
 .homePageTitle{
     color:var(--color);
-    /* color: #f39d52; */
-    /* color: rgba(243, 246, 62, 0.945); */
-    /* color:rgba(90, 224, 141, 0.877); */
-    /* color:rgba(197, 248, 58, 0.993); */
-    /* color: rgb(244, 248, 16); */
     font-family:'Times New Roman", Times, serif';
     font-size: 50px;
     cursor: pointer;
@@ -43,7 +38,6 @@
 }
 
 .homePageTitle:hover{
-    /* color:rgb(231, 165, 58); */
     transform: scale(1.2);
 }
 
@@ -114,3 +108,42 @@ font-size: 25px;
 .gmail:hover{
     transform: scale(1.5);
 }
+
+@media screen and (max-width: 700px) {
+    .SceContainer{
+        padding: 14px 0 0 0;
+    }
+    
+    .homePageTitle{
+        font-size:34px;
+        margin-right: 2px;
+        padding: 10px 0 0 6px;
+        margin: 0 auto;
+    }
+    .H12{
+        padding:0 0 0 0 ;
+    }
+    .personalDescription{
+        font-size:18px;
+    }
+    .gitIcon{
+        width: 40px;
+        height: 40px;
+    }
+    .linkedin{
+        width: 40px;
+        height: 40px;
+    }
+
+    .gmail{
+        width: 40px;
+        height: 40px;
+    }
+    .links{
+        justify-content: space-around;
+        padding:70px 0 0 0;
+    }
+  }
+
+
+

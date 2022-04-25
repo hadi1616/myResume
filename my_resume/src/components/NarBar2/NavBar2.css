@@ -1,0 +1,45 @@
+
+.Navbar{
+    display: flex;
+    justify-content:space-around;
+    padding-top:15px
+}
+
+.HomeClicked{
+    color: aquamarine;
+}
+
+
+.HomeButton{
+cursor: pointer;
+background-color: transparent;
+color: white;
+border-radius:5px
+
+
+
+}
+.AboutButton{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+
+.EducationButton{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.ProjectsButton{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.ExperienceButton{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
