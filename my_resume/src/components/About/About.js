@@ -18,7 +18,6 @@ function About() {
         function pdfGenerate() {
                 var doc = new jsPDF();
                 doc.addPage(myResume, 'PDF')
-                // doc.save('Hadi_Moallem_Resume.pdf')
         }
 
 

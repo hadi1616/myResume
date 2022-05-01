@@ -1,7 +1,5 @@
 import React from 'react'
-import Navbar from '../NavBar/NavBar'
 import { Link } from 'react-router-dom';
-// import homeBackgroundPic from '../../image/testimonials.jpg'
 import git from '../../image/9919.png'
 import linkedin from '../../image/linkedin2.png'
 import gmail from '../../image/gmail3.jpg'
@@ -26,7 +24,6 @@ function Home() {
 
     return (
         <div className={'MainContainer'}>
-            {/* <Navbar className={'navBar'}/> */}
 
             <div className={'SceContainer'}>
                 <div className={'H12'}>
@@ -38,7 +35,6 @@ function Home() {
                 <div className={'links'}>
                     <img className={'gitIcon'} src={git} alt="gitIcon" onClick={githubRedirect}/>
                     <img className={'linkedin'} src={linkedin} alt="linkedin"  onClick={linkedinRedirect}/>
-                    {/* <img className={'gmail'} src={gmail} alt="gmail" onClick={gmailRedirect}/> */}
                     <img className={'gmail'} src={gmail} alt="gmail" onClick={()=>history.push('/sendEmail')}/>
                     
                 </div>
