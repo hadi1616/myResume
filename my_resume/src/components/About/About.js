@@ -43,6 +43,7 @@ function About() {
 
         return (
                 <>
+                <div className='aboutMeContainer'>
                         <Slide right duration={1100}>
                                 <h1 className={'aboutmeH1'}>About Me</h1>
                         </Slide>
@@ -81,6 +82,7 @@ function About() {
                                         
                                 </Slide>
                         </div>
+                </div>
                 </>
         )
 }

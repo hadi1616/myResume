@@ -1,15 +1,18 @@
 :root {
     --h1Colors:#f5a25a;
   }
+  
+  .aboutMeContainer{
+      margin-top: 40px;
+      font-size: large;
+  }
 
 
 .container{
     display: flex;
     margin-top: 120px;
-    /* justify-content: center; */
     flex-direction: column;
     margin: 0 auto;
-    /* background-color: rgba(156, 160, 159,  0.123); */
     height: 1900px;
     font-size: large;
     
@@ -33,7 +36,7 @@ h1{
 
 .AvatarDiv{
         width: fit-content;
-        padding-top:25px;
+        padding-top:19px;
         margin: 0 auto;
     }
 
@@ -62,11 +65,9 @@ h1{
     margin: 3px 0 0 0 ;
 }
 .contactMeH1{
-    /* color: rgb(90, 224, 141); */
     color: var(--h1Colors);
-    margin-top: 13px;
+    margin-top: 12px;
     margin-bottom: 1px;
-    padding-top:10px;
 }
 
 .downloadButton{
@@ -114,12 +115,12 @@ h1{
 
     .aboutmeH1{
         font-size:24px;
-        padding-top: 1px;
     }
 
-    .AvatarDiv{
-        padding-top:9px;
-    }
+    /* .AvatarDiv{ */
+        /* padding-top:59px; */
+        /* margin-top: 0px; */
+    /* } */
 
     p{
       margin: 7px 0 7px 0;  

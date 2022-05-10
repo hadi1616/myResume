@@ -1,6 +1,7 @@
 // import Navbar from '../NavBar/NavBar'
 import ProgressBar from '../progress/ProgressBar'
 import '../progress/Progress.css'
+import '../Education/Education.css'
 
 
 function Education() {
@@ -24,11 +25,13 @@ function Education() {
 
   return (
     <>
+    <div className='container'>
     <div className={'ProgressBar'}>
       {testData.map((item, idx) => (
         <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} language={item.language}/>
       ))}
-      </div>
+    </div>
+    </div>
     </>
   )
 }

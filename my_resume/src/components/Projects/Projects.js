@@ -41,7 +41,6 @@ function Works() {
                     <Work workTitle={workProps.workTitle.furth} githubLink={workProps.githubLink.furth} websiteLink={workProps.websiteLink.furth} workDescription={workProps.workDescription.furth} />
                 </Slide>
 
-
             </div>
         </div>
     )

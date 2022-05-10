@@ -29,7 +29,7 @@ function Home() {
                 <div className={'H12'}>
                 <h1 className={'homePageTitle'} onClick={(e) => { history.push("/about") }}>I'm {fullName}</h1>
                 <p className={"personalDescription"}> I'm a Full Stack developer.<br/>
-                    I Have knowledge and experience in React, JavaScript, Node.js, Express.js, <br/>CSS and SCSS  also I am with a high level of self-learning skills. Looking for a junior position.</p>
+                    I Have knowledge and experience in React, JavaScript, Node.js, Express.js,CSS and SCSS  also I am with a high level of self-learning skills. Looking for a junior position.</p>
                 </div>
                 <hr size="2.5" width="45%" color="#f5a25a" className={'hrLine'}/>
                 <div className={'links'}>

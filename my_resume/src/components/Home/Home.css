@@ -18,10 +18,8 @@
 
 .SceContainer{
     padding-top: 29px;
-    /* background: url(../../image/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg) no-repeat center center ;  */
     background-repeat: no-repeat;
     background-size:cover;
-    /* height: 950px; */
     padding-top: -50px;
 }
 
@@ -44,22 +42,23 @@
 
 .personalDescription{
 color:rgb(248, 242, 242);
-/* color:rgba(228, 228, 228, 0.795); */
-padding-top: 40px;
+padding-top: 90px;
 display: flex;
 align-content: center;
 justify-content: center;
 margin:0px 30px 0px 30px;
 font-size: 25px;
+
+
 }
 
 .H12{
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
  .hrLine{
      border-radius: 5px;
-     margin-top: 80px;
+     margin-top: 95px;
  }
 
 .links{
@@ -109,22 +108,24 @@ font-size: 25px;
     transform: scale(1.5);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 969px) {
     .SceContainer{
         padding: 14px 0 0 0;
     }
     
     .homePageTitle{
-        font-size:34px;
         margin-right: 2px;
         padding: 10px 0 0 6px;
         margin: 0 auto;
+        font-size: 37px;
     }
     .H12{
         padding:0 0 0 0 ;
+        margin-top: 30px;
     }
     .personalDescription{
-        font-size:18px;
+        font-size:17px;
+        margin:10px 30px 0px 30px;
     }
     .gitIcon{
         width: 40px;
@@ -144,6 +145,5 @@ font-size: 25px;
         padding:70px 0 0 0;
     }
   }
-
 
 

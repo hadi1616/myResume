@@ -5,3 +5,10 @@
     font-weight: 400;
     padding: 8px 10px 8px 0;
 }
+
+
+@media all and (max-width: 800px){
+    .ExperienceH1{
+        font-size: xx-large;
+    }
+}

@@ -1,3 +1,12 @@
+.h1Project{
+    padding: 25px;
+    align-items: center;
+    font-weight: 500;
+    color: #f5a25a;
+    margin:auto 0;
+}
+
+
 .WorksContainer{
 display: flex;
 flex-direction: row;
@@ -6,29 +15,22 @@ flex-wrap: wrap;
 margin-top: 35px;
 }
 
-h1{
-    margin-top: 29px;
-    align-items: center;
-    font-weight: 500;
-    color: #f5a25a;
-    margin:auto 0;
-    padding-top: 8px;
-}
 
-hr{
-    border-radius: 13px;
-}
 
-/*for desktop*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
 
-.h1{
-    padding-top:10px;
-}
+    .h1Project{
+        padding: 25px 0 25px 0;
+        font-weight: 300;
+        padding-top: 15px;
+    }
+
+    .WorksContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 1px;
+        
+
+    }
 
 }
-
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-
-  }

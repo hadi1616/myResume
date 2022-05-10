@@ -12,7 +12,7 @@ function Work({workTitle , githubLink ,websiteLink ,workDescription  }) {
 
     return (
         <div className={'WorkContainer'}>
-            <h2>{workTitle}</h2>
+            <h2 className='h2'>{workTitle}</h2>
             <hr size="2.5" width="64%" color="#A6A4A4"/>
             <p className={'pColor'}>{workDescription}</p>
             <div className={'LinkContainer'}>

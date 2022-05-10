@@ -1,10 +1,11 @@
 .WorkContainer{
-display: flex;
+display:flex;
 flex-direction: column;
-margin:5px 38px 0 38px  ;
+/* margin:5px 38px 0 38px  ; */
+margin:2px 15px 0 10px  ;
 }
 
-h2{
+.h2{
     color: #d88a46;
     font-size: 30px;
     font-weight: 600;
@@ -30,4 +31,33 @@ h2{
     color: aquamarine;
     padding:0 8px 0 12px;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 1300px) {
+    
+    .WorkContainer{
+      
+        display: flex;
+        align-items: center;
+        /* margin-right: 0px; */
+        margin-left: 40px;
+        }
+
+
+    .h2{
+        color: #e0924d;
+        font-size: 20px;
+        font-weight: 350;
+    }
+
+    .pColor{
+        color: #ffffff;
+        font-weight: 300;
+        font-size:medium;
+        font-family:'Courier New', Courier, monospace;
+        margin: 0 auto;
+        width: 272px;
+        padding-top: 20px;
+    }
 }

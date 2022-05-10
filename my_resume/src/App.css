@@ -1,6 +1,8 @@
  html{
 
   background-color: 		#272727;
+  overflow-x:hidden;  
+  overflow-y:auto;
       }
   
     
@@ -18,3 +20,5 @@
     display: flex;
     justify-items: center;
   }
+
+  
