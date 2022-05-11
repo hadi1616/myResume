@@ -3,6 +3,9 @@
   background-color: 		#272727;
   overflow-x:hidden;  
   overflow-y:auto;
+  min-width: 360px;
+  min-height: 740px;
+
       }
   
     
