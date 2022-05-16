@@ -3,28 +3,30 @@
   }
   
   .aboutMeContainer{
-      margin-top: 40px;
-      font-size: large;
-      min-width: 360px;
-      min-height: 740px;
+    margin-top: 40px;
+    font-size: large;
+    /* min-width: 360px;
+    min-height: 740px; */
+    height: 100vh;
 
-  }
+}
 
 
 .container{
-    display: flex;
-    margin-top: 120px;
-    flex-direction: column;
-    margin: 0 auto;
-    height: 100vh;
-    font-size: large;
-    
-    
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -moz-background-size:cover ;
-    background-size: cover;
-}    
+  display: flex;
+  margin-top: 120px;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  font-size: large;
+  height: max-content;
+  
+  
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -moz-background-size:cover ;
+  background-size: cover;
+}  
 
 h1{
     padding-right:18px ;

@@ -25,7 +25,8 @@ function Education() {
 
   return (
     <>
-    <div className='container'>
+    <div className='mainContainer'>
+    <h1 className={'H1Education'}>Education</h1>
     <div className={'ProgressBar'}>
       {testData.map((item, idx) => (
         <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} language={item.language}/>

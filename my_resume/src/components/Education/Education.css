@@ -1,3 +1,9 @@
-.container{
-    padding-top: 32px;
+.mainContainer{
+    padding-top: 15px;
+    height: 100vh;
+}
+
+
+.H1Education{
+    color: #f5a25a;;
 }
