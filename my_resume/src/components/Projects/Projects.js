@@ -3,6 +3,7 @@ import './Projects.css'
 import Slide from "react-reveal";
 import Work from '../Work/Work'
 
+
 function Works() {
 
     const [workProps, setWorkProp] = React.useState(
@@ -20,7 +21,9 @@ function Works() {
     )
     return (
         <div className={'projectContainer'}>
-            <h1 className={'h1Project'}>Check out my projects</h1>
+            <Slide top duration={1100}>
+                <h1 className={'h1Project'}>Check out my projects</h1>
+            </Slide>
             {/* <hr size="4.5" width="25%" color="#BSSae08d"/> */}
             <div className={'WorksContainer'}>
 

@@ -44,7 +44,7 @@ function About() {
         return (
                 <>
                 <div className='aboutMeContainer'>
-                        <Slide right duration={1100}>
+                        <Slide top duration={1100}>
                                 <h1 className={'aboutmeH1'}>About Me</h1>
                         </Slide>
                         <div className={'container'}>
@@ -78,7 +78,7 @@ function About() {
 
 
                                 <Slide right duration={1100}>
-                                        <Button onClick={pdfGenerate} className={'downloadButton'}> <a href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}>Download resume</a></Button>
+                                        <Button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}>Download resume</a></Button>
                                         
                                 </Slide>
                         </div>

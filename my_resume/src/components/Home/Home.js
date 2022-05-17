@@ -6,6 +6,7 @@ import gmail from '../../image/gmail3.jpg'
 import '../Home/Home.css'
 import { useHistory } from "react-router-dom";
 import SendEmail from '../SendEmail/SendEmail';
+import Slide from "react-reveal";
 
 function Home() {
 
@@ -27,7 +28,9 @@ function Home() {
 
             <div className={'SceContainer'}>
                 <div className={'H12'}>
-                <h1 className={'homePageTitle'} onClick={(e) => { history.push("/about") }}>I'm {fullName}</h1>
+                <Slide top duration={1100}>
+                    <h1 className={'homePageTitle'} onClick={(e) => { history.push("/about") }}>I'm {fullName}</h1>
+                </Slide>
                 <p className={"personalDescription"}> I'm a Full Stack developer.<br/>
                     I Have knowledge and experience in React, JavaScript, Node.js, Express.js,CSS and SCSS  also I am with a high level of self-learning skills. Looking for a junior position.</p>
                 </div>

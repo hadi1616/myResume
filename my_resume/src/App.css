@@ -1,9 +1,9 @@
  html{
 
-  background-color:#272727;
+  background-color: 		#272727;
   overflow-x:hidden;  
   overflow-y:auto;
-  
+  overflow: hidden;
       }
   
     
@@ -12,9 +12,9 @@
     text-align: center;
   }
 
-  body{
-    overflow: hidden;
-  }
+  /* body{ */
+    /* overflow: hidden; */
+  /* } */
 
 
   .Home{

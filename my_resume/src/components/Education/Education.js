@@ -2,6 +2,7 @@
 import ProgressBar from '../progress/ProgressBar'
 import '../progress/Progress.css'
 import '../Education/Education.css'
+import Slide from "react-reveal";
 
 
 function Education() {
@@ -26,7 +27,9 @@ function Education() {
   return (
     <>
     <div className='mainContainer'>
+    <Slide top duration={1100}>
     <h1 className={'H1Education'}>Education</h1>
+    </Slide>
     <div className={'ProgressBar'}>
       {testData.map((item, idx) => (
         <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} language={item.language}/>
