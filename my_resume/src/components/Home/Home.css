@@ -1,75 +1,78 @@
 :root {
-    --color:#f5a25a;
-  }
-
-
-.navBar{
-  overflow: hidden;
-  background-color: #333;
-  position: fixed !important;
-  bottom: 0;
-  width: 100%;
-  position:-webkit-sticky;
+    --color: #f5a25a;
 }
-.MainContainer{
+
+
+.navBar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
+    position: -webkit-sticky;
+}
+
+.MainContainer {
     display: inline;
-    background-color: rgba(156, 160, 159,  0.123);
+    background-color: rgba(156, 160, 159, 0.123);
 }
 
-.SceContainer{
+.SceContainer {
     padding-top: 29px;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     padding-top: -50px;
     height: 100vh;
 }
 
 
 
-.homePageTitle{
-    color:var(--color);
-    font-family:'Times New Roman", Times, serif';
+.homePageTitle {
+    color: var(--color);
+    font-family: 'Times New Roman", Times, serif';
     font-size: 45px;
     font-weight: 400;
     cursor: pointer;
-    transition: transform .89s;
+    transition: transform 0.8s;
+    /* transition: width 1s, height 1s, transform 1s; */
     width: fit-content;
     margin: 0 auto;
 }
 
-.homePageTitle:hover{
+.homePageTitle:hover {
     transform: scale(1.2);
+    /* transform: rotate(360deg); */
 }
 
 
-.personalDescription{
-color:rgb(248, 242, 242);
-padding-top: 90px;
-display: flex;
-align-content: center;
-justify-content: center;
-margin:0px 30px 0px 30px;
-font-size: 25px;
+.personalDescription {
+    color: rgb(248, 242, 242);
+    padding-top: 90px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0px 30px 0px 30px;
+    font-size: 25px;
 
 
 }
 
-.H12{
+.H12 {
     padding-top: 20px;
 }
 
- .hrLine{
-     border-radius: 5px;
-     margin-top: 95px;
- }
+.hrLine {
+    border-radius: 5px;
+    margin-top: 95px;
+}
 
-.links{
-    padding-top:100px;
+.links {
+    padding-top: 100px;
     width: 330px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto ;
-    
+    margin: 0 auto;
+
 }
 
 .gitIcon {
@@ -81,23 +84,13 @@ font-size: 25px;
     transition: transform .2s;
 }
 
-.gitIcon:hover{
+.gitIcon:hover {
     transform: scale(1.5);
 }
 
-.linkedin , .gmail , .github{
-    vertical-align: middle;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: transform .2s;
-}
-.linkedin:hover{
-    transform: scale(1.5);
-}
-
-.gmail{
+.linkedin,
+.gmail,
+.github {
     vertical-align: middle;
     width: 48px;
     height: 48px;
@@ -106,46 +99,62 @@ font-size: 25px;
     transition: transform .2s;
 }
 
-.gmail:hover{
+.linkedin:hover {
+    transform: scale(1.5);
+}
+
+.gmail {
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.gmail:hover {
     transform: scale(1.5);
 }
 
 @media screen and (max-width: 969px) {
-    .SceContainer{
+    .SceContainer {
         padding: 14px 0 0 0;
     }
-    
-    .homePageTitle{
+
+    .homePageTitle {
         margin-right: 2px;
         padding: 10px 0 0 6px;
         margin: 0 auto;
         font-size: 37px;
     }
-    .H12{
-        padding:0 0 0 0 ;
+
+    .H12 {
+        padding: 0 0 0 0;
         margin-top: 30px;
     }
-    .personalDescription{
-        font-size:17px;
-        margin:10px 30px 0px 30px;
+
+    .personalDescription {
+        font-size: 17px;
+        margin: 10px 30px 0px 30px;
     }
-    .gitIcon{
-        width: 40px;
-        height: 40px;
-    }
-    .linkedin{
+
+    .gitIcon {
         width: 40px;
         height: 40px;
     }
 
-    .gmail{
+    .linkedin {
         width: 40px;
         height: 40px;
     }
-    .links{
+
+    .gmail {
+        width: 40px;
+        height: 40px;
+    }
+
+    .links {
         justify-content: space-around;
-        padding:70px 0 0 0;
+        padding: 70px 0 0 0;
     }
-  }
-
-
+}
