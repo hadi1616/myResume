@@ -8,6 +8,7 @@ import Tab from '@material-ui/core/Tab';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import { Avatar } from '@material-ui/core';
 import Slide from "react-reveal";
+import LightSpeed from "react-reveal";
 
 
 function About() {
@@ -49,21 +50,21 @@ function About() {
                         </Slide>
                         <div className={'container'}>
 
-                                <Slide right duration={1100}>
+                                {/* <Slide right duration={1100}> */}
                                         <div className={'AvatarDiv'}>
                                                 <Avatar alt="Remy Sharp" src={personalImg} className={classes.large} />
                                         </div>
-                                </Slide>
+                                {/* </Slide> */}
 
-                                <Slide right duration={1100}>
+                                {/* <Slide right duration={1100}> */}
                                         <div className={'aboutMe'}>
                                                 <p>Practical engineer with high motivation and passion for succeeding and  progressing, excellent <br />communication skills with team members , high responsibility.<br /> <div className={'lookingFor'}>Looking for entry level positions in the Front-end , Back-end , Full stack developer</div></p>
                                         </div>
 
-                                </Slide>
+                                {/* </Slide> */}
 
-                                <Slide right duration={1100}>
-                                        <h1 className={'contactMeH1'}>Contact Info</h1>
+                                {/* <Slide right duration={1100}> */}
+                                        <h1 className={'contactMeH1'}><LightSpeed top cascade>Contact Info</LightSpeed></h1>
 
                                         <div className={'ContactMeContainer'}>
                                                 <p className={'ContactMeSecContainer'}>
@@ -74,13 +75,13 @@ function About() {
                                                 </p>
 
                                         </div>
-                                </Slide>
+                                {/* </Slide> */}
 
 
-                                <Slide right duration={1100}>
-                                        <Button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}>Download resume</a></Button>
-                                        
-                                </Slide>
+                                {/* <Slide right duration={1100} > */}
+                                        <Button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}> Download resume</a></Button>
+                                {/* </Slide>   */}
+                                
                         </div>
                 </div>
                 </>

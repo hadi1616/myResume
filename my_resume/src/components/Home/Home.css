@@ -53,9 +53,17 @@
     justify-content: center;
     margin: 0px 30px 0px 30px;
     font-size: 25px;
+    overflow: hidden;
 
+
+    animation: fadeIn 7s;
+    -webkit-animation: fadeIn 7s;
+    -moz-animation: fadeIn 7s;
+    -o-animation: fadeIn 7s;
+    -ms-animation: fadeIn 7s;
 
 }
+
 
 .H12 {
     padding-top: 20px;
@@ -64,6 +72,13 @@
 .hrLine {
     border-radius: 5px;
     margin-top: 95px;
+    
+
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
+    -moz-animation: fadeIn 8s;
+    -o-animation: fadeIn 8s;
+    -ms-animation: fadeIn 8s;
 }
 
 .links {
@@ -72,6 +87,12 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+
+    animation: fadeIn 9s;
+    -webkit-animation: fadeIn 9s;
+    -moz-animation: fadeIn 9s;
+    -o-animation: fadeIn 9s;
+    -ms-animation: fadeIn 9s;
 
 }
 
@@ -116,6 +137,34 @@
     transform: scale(1.5);
 }
 
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    /* 50% {opacity:0.5;} */
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+   
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+
 @media screen and (max-width: 969px) {
     .SceContainer {
         padding: 14px 0 0 0;
@@ -129,13 +178,13 @@
     }
 
     .H12 {
-        padding: 0 0 0 0;
+        padding-top: 0px;
         margin-top: 30px;
     }
 
     .personalDescription {
         font-size: 17px;
-        margin: 10px 30px 0px 30px;
+        padding-top: 50px;
     }
 
     .gitIcon {

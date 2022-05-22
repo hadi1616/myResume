@@ -10,9 +10,9 @@ function Education() {
 
   const testData = [
 
-    { bgcolor:'#3c7990' , completed: 92, language:'React.js '},
-    { bgcolor:'#d88a46', completed: 68, language:'Access '},
-    { bgcolor:'#908501', completed: 74, language:'CSS & SCSS '},
+    { bgcolor:'#3c7990' , completed: 92, language:'React.js'},
+    { bgcolor:'#d88a46', completed: 68, language:'Access'},
+    { bgcolor:'#908501', completed: 74, language:'CSS & SCSS'},
     { bgcolor: '#15cf9b', completed: 82, language:'C#'},
     { bgcolor:'#C22E0B', completed: 86, language:'node.js & expess'},
     { bgcolor: '#6D2D4f', completed: 70, language:'Java'},

@@ -1,9 +1,27 @@
+.ProgressBar{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* height: 24px; */
+    background-color: rgba(156, 160, 156, 0);
+}
+
+
 .mainContainer{
     padding-top: 15px;
-    height: 100vh;
+
 }
 
 
 .H1Education{
     color: #f5a25a;;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .ProgressBar{
+ height: max-content;
+    }
+    
 }

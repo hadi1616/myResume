@@ -3,23 +3,24 @@
   background-color: 		#272727;
   overflow-x:hidden;  
   overflow-y:auto;
-  overflow: hidden;
-      }
   
-    
-  
-   .App {
-    text-align: center;
-  }
-
-  /* body{ */
-    /* overflow: hidden; */
-  /* } */
+}
 
 
-  .Home{
+
+.App {
+  text-align: center;
+}
+
+body{ 
+     /* overflow: hidden; */
+     overflow: hidden; 
+   } 
+
+
+  /* .Home{
     display: flex;
     justify-items: center;
-  }
+  } */
 
   
