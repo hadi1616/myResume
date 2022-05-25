@@ -12,7 +12,7 @@ const ProgressBar = (props) => {
     // marginTop: 47,
     // margin:'100px 10px 10px 10px'
     margin: 21,
-    border:'5px bold yellow'
+    border: '5px bold yellow'
   }
 
   const fillerStyles = {
@@ -31,11 +31,11 @@ const ProgressBar = (props) => {
 
   return (
 
-      <div style={containerStyles}>
-        <div style={fillerStyles}>
-          <span style={labelStyles} className={'title'}>{`${language}`}</span>
-        </div>
-     </div>
+    <div style={containerStyles}>
+      <div style={fillerStyles}>
+        <span style={labelStyles} className={'title'}>{`${language}`}</span>
+      </div>
+    </div>
   );
 };
 

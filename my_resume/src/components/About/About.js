@@ -44,26 +44,21 @@ function About() {
 
         return (
                 <>
-                <div className='aboutMeContainer'>
-                        <Slide top duration={1100}>
-                                <h1 className={'aboutmeH1'}>About Me</h1>
-                        </Slide>
-                        <div className={'container'}>
+                        <div className='aboutMeContainer'>
+                                <Slide top duration={1100}>
+                                        <h1 className={'aboutmeH1'}>About Me</h1>
+                                </Slide>
+                                <div className={'container'}>
 
-                                {/* <Slide right duration={1100}> */}
                                         <div className={'AvatarDiv'}>
                                                 <Avatar alt="Remy Sharp" src={personalImg} className={classes.large} />
                                         </div>
-                                {/* </Slide> */}
 
-                                {/* <Slide right duration={1100}> */}
                                         <div className={'aboutMe'}>
                                                 <p>Practical engineer with high motivation and passion for succeeding and  progressing, excellent <br />communication skills with team members , high responsibility.<br /> <div className={'lookingFor'}>Looking for entry level positions in the Front-end , Back-end , Full stack developer</div></p>
                                         </div>
 
-                                {/* </Slide> */}
 
-                                {/* <Slide right duration={1100}> */}
                                         <h1 className={'contactMeH1'}><LightSpeed top cascade>Contact Info</LightSpeed></h1>
 
                                         <div className={'ContactMeContainer'}>
@@ -75,15 +70,12 @@ function About() {
                                                 </p>
 
                                         </div>
-                                {/* </Slide> */}
 
 
-                                {/* <Slide right duration={1100} > */}
                                         <Button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}> Download resume</a></Button>
-                                {/* </Slide>   */}
-                                
+
+                                </div>
                         </div>
-                </div>
                 </>
         )
 }

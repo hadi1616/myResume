@@ -1,61 +1,63 @@
 :root {
-    --h1Colors:#f5a25a;
-  }
-  
-  .aboutMeContainer{
+    --h1Colors: #f5a25a;
+
+
+
+}
+
+.aboutMeContainer {
     margin-top: 40px;
     font-size: large;
-    height: 100vh;
+    height: max-content;
 
 }
 
 
-.container{
-  display: flex;
-  margin-top: 120px;
-  flex-direction: column;
-  margin: 0 auto;
-  height: 100vh;
-  font-size: large;
-  height: max-content;
-  
-  
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -moz-background-size:cover ;
-  background-size: cover;
-}  
+.container {
+    display: flex;
+    margin-top: 120px;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: large;
+    /* height: max-content; */
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
 
 
 
-.aboutmeH1{
-    color: var(--h1Colors) ;
+.aboutmeH1 {
+    color: var(--h1Colors);
     /* margin: 0 auto; */
     margin-top: -15px;
     padding: 5px 0 0 0;
-    font-family:'Times New Roman", Times, serif';
+    font-family: 'Times New Roman", Times, serif';
     font-size: 45px;
     font-weight: 400;
 }
 
 
-.AvatarDiv{
-        width: fit-content;
-        padding-top:19px;
-        margin: 0 auto;
-    }
-
-
-.aboutMe{
-    color: rgb(248, 242, 242);
+.AvatarDiv {
+    width: fit-content;
+    padding-top: 19px;
+    margin: 0 auto;
 }
 
-.lookingFor{
-    font-size:x-large;
+
+.aboutMe {
+    color: rgb(248, 242, 242);
+    font-size: 21px;
+}
+
+.lookingFor {
+    font-size: x-large;
     font-weight: 645;
 }
 
-.ContactMeContainer{
+.ContactMeContainer {
     /* margin-top: 14px; */
     width: fit-content;
     margin: 0 auto;
@@ -65,105 +67,106 @@
 }
 
 
-.ContactMe{
+.ContactMe {
     color: rgba(248, 242, 242, 0.226);
-    margin: 3px 0 0 0 ;
+    margin: 3px 0 0 0;
 }
-.contactMeH1{
+
+.contactMeH1 {
     color: var(--h1Colors);
     margin-top: 12px;
     margin-bottom: 1px;
     font-weight: 400;
 }
 
-.downloadButton{
-    
+.downloadButton {
+
     width: 77px;
     height: 77px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 30px;
-    border-radius: 13px;
-    border: 2.2px rgb(129, 129, 127) solid  ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border-radius: 13px; */
     transition: transform 0.8s;
-    /* background-color: #272727; */
     background-color: #988c81;
     border-style: none;
-    text-decoration:none;
+    text-decoration: none;
     border-radius: 50%;
     margin: 0 auto;
 }
 
 
-.ContactMeSecContainer{
- margin: 8px 0 5px 0 ;
-
-}
 
 
-.ContactMe{
+
+.ContactMe {
     padding-left: 34px;
     color: rgba(245, 243, 239, 0.836);
     display: flex;
     padding-bottom: 3px;
-    margin: 3px 0 0 0 ;   
+    margin: 3px 0 0 0;
 }
 
-.infoAboutMe{
-    color:lightcoral;
+.infoAboutMe {
+    color: lightcoral;
 }
 
 
-.downloadButton:hover{
+.downloadButton:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
-.downloadCVButton{
-    /* color: #272727; */
+.downloadCVButton {
     color: rgb(231, 227, 227);
     font-size: 14px;
-    font-style:oblique;
+    font-style: oblique;
 
 }
 
 
 @media screen and (max-width: 800px) {
 
-    .aboutmeH1{
-        font-size:24px;
+    .aboutmeH1 {
+        font-size: 28px;
     }
 
-    p{
-      margin: 7px 0 7px 0;  
-      padding: 2px 7px 2px 7px;
+    p {
+        margin: 7px 0 7px 0;
+        padding: 2px 7px 2px 7px;
     }
 
-    .aboutMe{
-        font-size:13px;
+    .aboutMeContainer {
+        height: max-content;
+        margin-bottom: 22px;
+
     }
 
-    .lookingFor{
-        font-size: 15px;
+
+    .aboutMe {
+        font-size: 14px;
     }
 
-    .contactMeH1{
-        font-size: 19px;
-        padding: 5px 18px 0 0 ;
+    .lookingFor {
+        font-size: 16px;
+    }
+
+    .contactMeH1 {
+        font-size: 22px;
+        padding: 5px 18px 0 0;
         margin: 5px 0 1px 0;
     }
 
-    .downloadButton{
-        margin-top: 8px;
+    .downloadButton {
         width: 68px;
         height: 68px;
     }
 
 
-    .downloadButton:hover{
+    .downloadButton:hover {
         cursor: pointer;
-        transform: scale(1.3);
+        transform: scale(1.1);
     }
-    .downloadCVButton{
+
+    .downloadCVButton {
         font-size: 12px;
     }
-  }
+}

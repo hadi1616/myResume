@@ -1,4 +1,4 @@
-.ExperienceH1{
+.ExperienceH1 {
     margin-top: -3px;
     color: #eb9850;
     font-size: 37px;
@@ -7,8 +7,12 @@
 }
 
 
-@media all and (max-width: 800px){
-    .ExperienceH1{
+@media all and (max-width: 800px) {
+    .ExperienceH1 {
         font-size: xx-large;
+    }
+
+    .ExperienceContainer {
+        padding-bottom: 15px;
     }
 }

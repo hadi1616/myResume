@@ -1,5 +1,5 @@
-.ProgressBar{
-    display: flex;  
+.ProgressBar {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     /* height: 24px; */
@@ -7,21 +7,34 @@
 }
 
 
-.mainContainer{
+.mainContainer {
     padding-top: 15px;
 
 }
 
 
-.H1Education{
-    color: #f5a25a;;
+.H1Education {
+    color: #f5a25a;
+    font-family: 'Times New Roman", Times, serif';
+    font-size: 42px;
+    font-weight: 300;
 }
 
 
 
 @media screen and (max-width: 800px) {
-    .ProgressBar{
- height: max-content;
+    .ProgressBar {
+        height: max-content;
     }
-    
+
+    .mainContainer {
+        padding-top: 5px;
+
+    }
+
+    .H1Education {
+        font-family: 'Times New Roman", Times, serif';
+        font-size: 30px;
+        font-weight: 400;
+    }
 }

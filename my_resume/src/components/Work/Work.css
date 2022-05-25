@@ -1,61 +1,61 @@
-.WorkContainer{
-display:flex;
-flex-direction: column;
-/* margin:5px 38px 0 38px  ; */
-margin:2px 15px 0 10px  ;
+.WorkContainer {
+    display: flex;
+    flex-direction: column;
+    /* margin: 5px 38px 0 38px; */
+    /* margin: 2px 15px 0 10px; */
 }
 
-.h2{
+.h2 {
     color: #d88a46;
     font-size: 30px;
     font-weight: 600;
 }
 
 
-.pColor{
+.pColor {
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 400;
     font-size: large;
-    font-family:'Courier New', Courier, monospace;
+    font-size: 21px;
     margin: 0 auto;
     width: 272px;
     padding-top: 20px;
 }
-.LinkContainer{
+
+.LinkContainer {
     display: flex;
     justify-content: space-between;
 }
 
-.Link{
+.Link {
     padding-bottom: -9px;
     color: aquamarine;
-    padding:0 8px 0 12px;
+    padding: 0 8px 0 12px;
     cursor: pointer;
 }
 
 
 @media screen and (max-width: 1300px) {
-    
-    .WorkContainer{
-      
+
+    .WorkContainer {
+
         display: flex;
         align-items: center;
-        /* margin-right: 0px; */
-        margin-left: 40px;
-        }
+        margin-top: 30px;
 
-
-    .h2{
-        color: #e0924d;
-        font-size: 20px;
-        font-weight: 350;
     }
 
-    .pColor{
+
+    .h2 {
+        color: #e0924d;
+        font-size: 20px;
+        font-weight: 450;
+    }
+
+    .pColor {
         color: #ffffff;
-        font-weight: 300;
-        font-size:medium;
-        font-family:'Courier New', Courier, monospace;
+        font-weight: 400;
+        font-size: medium;
         margin: 0 auto;
         width: 272px;
         padding-top: 20px;

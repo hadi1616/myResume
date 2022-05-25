@@ -1,18 +1,19 @@
-.title{
-    margin-right:5px;
+.title {
+    margin-right: 7px;
+    height: 55px;
 }
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
 
- .ProgressBar{
-    font-size: small;        
+    .ProgressBar {
+        font-size: small;
     }
-.title{
-    display: flex;
-    justify-content: center;
-    margin-right: 9px;
-    height: 24px;
-}   
+
+    .title {
+        display: flex;
+        justify-content: center;
+        height: 15px;
+    }
 
 }

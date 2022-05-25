@@ -1,35 +1,40 @@
-.h1Project{
+.h1Project {
     padding: 25px;
     align-items: center;
     font-weight: 500;
     color: #f5a25a;
-    margin:auto 0;
-}
-
-
-.WorksContainer{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-flex-wrap: wrap;
-margin-top: 35px;
+    margin: auto 0;
 }
 
 
 
-@media screen and (max-width: 1300px) {
+.WorksContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
 
-    .h1Project{
-        padding: 25px 0 25px 0;
-        font-weight: 300;
-        padding-top: 15px;
+
+
+@media screen and (max-width: 800px) {
+
+    .h1Project {
+        padding: 25px 0 8px 0;
+        font-weight: 400;
+        padding-top: 18px;
+        font-family: 'Times New Roman", Times, serif';
+        font-size: 30px;
+        /* font-weight: 200; */
     }
 
-    .WorksContainer{
+    .WorksContainer {
         display: flex;
         justify-content: center;
         margin-top: 1px;
-        
+        margin-bottom: 35px;
+
 
     }
 

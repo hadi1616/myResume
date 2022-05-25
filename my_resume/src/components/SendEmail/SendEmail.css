@@ -1,54 +1,57 @@
 :root {
     --margin-top: 16px;
-  }
+}
 
+h1 {
+    color: #de9250;
+}
 
-
-.contact-form{
+.contact-form {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     align-items: center;
     margin-top: 24px;
 }
 
-.arrowImg{
-    margin-top:20px;
+.arrowImg {
+    margin-top: 10px;
     width: 58px;
     border-radius: 50%;
 }
 
-.gmailLabels{
+.gmailLabels {
     display: flex;
-    justify-content:left;
+    justify-content: left;
     margin-top: var(--margin-top);
-    color:#f5a25a ;
+    color: #f5a25a;
     font-weight: 600;
     font-size: large;
     margin-bottom: 3px;
 }
 
-.sendButton{
+/* .sendButton {
     margin-top: var(--margin-top);
     width: 110px;
     border-radius: 7px;
     border: 1px solid white;
-}
+} */
 
-.imgButton{
-    margin-top:24px;
-    width: 46px;
-    height: 46px;
+.imgButton {
+    margin-top: 24px;
+    width: 51px;
+    height: 51px;
     background-color: transparent;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
-.otherInput{
+.otherInput {
     width: 300px;
     border-radius: 6px;
     height: 21px;
 }
 
-.gmailInput{
+.gmailInput {
     border-radius: 6px;
     max-width: 350px;
     min-width: 300px;

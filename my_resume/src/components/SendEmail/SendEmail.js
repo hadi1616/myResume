@@ -4,6 +4,7 @@ import './SendEmail.css';
 import { useHistory } from "react-router-dom";
 import sendButton from '../../image/send-icon.png'
 import arrow from '../../image/down-arrow-icon.jpg'
+// import arrow from '../../image/below.png'
 
 export default function SendEmail() {
 
@@ -47,7 +48,7 @@ export default function SendEmail() {
             </div>
             <div>
                 <label className={'gmailLabels'}>Message : </label>
-                <textarea name="message" value={message} onChange={e => (setMessage(e.target.value))} required="true" className={'gmailInput'} placeholder='resizable'/>
+                <textarea name="message" value={message} onChange={e => (setMessage(e.target.value))} required="true" className={'gmailInput'} placeholder='resizable' />
             </div>
             <img alt='send_BTN' className={'imgButton'} onClick={sendEmail} src={sendButton} />
         </form >
