@@ -4,7 +4,13 @@
     padding-top: 15px
 }
 
-.HomeButton,
+.HomeButton {
+    cursor: pointer;
+    background-color: transparent;
+    color: #f5a25a;
+    font-size: 18px;
+}
+
 .AboutButton,
 .EducationButton,
 .ProjectsButton,

@@ -32,7 +32,7 @@ function Home() {
             <div className={'SecContainer'}>
                 <div className={'H12'}>
                     <Bounce top cascade>
-                        <h1 className={'homePageTitle'} onClick={(e) => { history.push("/about") }}>{`I'm ${fullName}`}</h1>
+                        <h1 className={'homePageTitle'} /*onClick={(e) => { history.push("/about") }}*/>{`I'm ${fullName}`}</h1>
                         {/* <h1>hadi</h1> */}
                     </Bounce>
 
