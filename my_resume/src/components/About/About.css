@@ -9,6 +9,7 @@
     margin-top: 40px;
     font-size: large;
     height: max-content;
+    
 
 }
 
@@ -84,13 +85,13 @@
     width: 77px;
     height: 77px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* border-radius: 13px; */
     transition: transform 0.8s;
     background-color: #988c81;
     border-style: none;
     text-decoration: none;
     border-radius: 50%;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 
@@ -158,6 +159,7 @@
     .downloadButton {
         width: 68px;
         height: 68px;
+        margin-bottom: -8px;
     }
 
 

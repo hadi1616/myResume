@@ -22,7 +22,7 @@ return(
         document.getElementsByClassName("HomeButton")[0].style.color='#FFFFFF';
         document.getElementsByClassName("EducationButton")[0].style.color='#FFFFFF';
         document.getElementsByClassName("ProjectsButton")[0].style.color='#FFFFFF';
-        document.getElementsByClassName("ExperienceButton")[0].style.color='#FFFFFF';}}>About & Resume 
+        document.getElementsByClassName("ExperienceButton")[0].style.color='#FFFFFF';}}>About 
     </span>
 
 

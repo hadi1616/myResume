@@ -72,7 +72,7 @@ function About() {
                                         </div>
 
 
-                                        <Button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}> Download resume</a></Button>
+                                        <Button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}> Download Resume</a></Button>
 
                                 </div>
                         </div>
