@@ -113,13 +113,14 @@
 
 .downloadButton:hover {
     cursor: pointer;
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .downloadCVButton {
     color: rgb(231, 227, 227);
     font-size: 14px;
     font-style: oblique;
+    margin-right: 20px;
 
 }
 
@@ -165,10 +166,11 @@
 
     .downloadButton:hover {
         cursor: pointer;
-        transform: scale(1.1);
+        transform: none;
     }
 
     .downloadCVButton {
         font-size: 12px;
+        margin-right: 20px;
     }
 }
