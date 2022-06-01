@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Projects.css'
 import Slide from "react-reveal";
 import Work from '../Work/Work'
+import { notification } from 'antd';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 function Works() {
@@ -23,12 +27,15 @@ function Works() {
             websiteLink: { first: 'https://blueberries.netlify.app/', second: 'https://hadi-moallem-resume.netlify.app', third: 'https://draw-guess-words.netlify.app', furth: 'https://eventsandwishes.netlify.app/', fifth: 'https://eager-bhabha-b18fe5.netlify.app' }
         }
     )
+    useEffect(() => {
+        toast.warning("Events&wishes project will not login for now, some changes coming soon.")
+          },[]);
+
     return (
         <div className={'projectContainer'}>
             <Slide top duration={1100}>
                 <h1 className={'h1Project'}>Check out my projects</h1>
             </Slide>
-            {/* <hr size="4.5" width="25%" color="#BSSae08d"/> */}
             <div className={'WorksContainer'}>
 
                 <Slide top duration={1100}>
@@ -52,6 +59,7 @@ function Works() {
                     <Work workTitle={workProps.workTitle.fifth} githubLink={workProps.githubLink.fifth} websiteLink={workProps.websiteLink.fifth} workDescription={workProps.workDescription.fifth} />
                 </Slide>
 
+                <ToastContainer autoClose={7500}/>
             </div>
         </div>
     )
