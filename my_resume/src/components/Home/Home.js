@@ -1,13 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import git from '../../image/9919.png'
 import linkedin from '../../image/linkedin2.png'
 import gmail from '../../image/gmail3.jpg'
 import '../Home/Home.css'
 import { useHistory } from "react-router-dom";
-import SendEmail from '../SendEmail/SendEmail';
-import Slide from "react-reveal";
-import Flash from "react-reveal";
 import Bounce from 'react-reveal/Bounce';
 
 
@@ -33,7 +29,6 @@ function Home() {
                 <div className={'H12'}>
                     <Bounce top cascade>
                         <h1 className={'homePageTitle'} /*onClick={(e) => { history.push("/about") }}*/>{`I'm ${fullName}`}</h1>
-                        {/* <h1>hadi</h1> */}
                     </Bounce>
 
 

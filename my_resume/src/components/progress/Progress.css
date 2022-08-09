@@ -1,6 +1,9 @@
 .title {
-    margin-right: 7px;
-    height: 55px;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 5px; */
+    /* height: 55px; */
+    padding-bottom: 2px;
 }
 
 

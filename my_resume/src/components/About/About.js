@@ -4,7 +4,6 @@ import personalImg from '../../image/linkedin pic3.jpeg'
 import { Button } from 'reactstrap';
 import jsPDF from 'jspdf'
 import myResume from '../Resume/Hadi_Moallem_Resume (3).pdf'
-import Tab from '@material-ui/core/Tab';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import { Avatar } from '@material-ui/core';
 import Slide from "react-reveal";
