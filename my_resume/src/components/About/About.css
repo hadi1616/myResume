@@ -101,7 +101,7 @@
     }
 
     30% {
-        transform: scale(.9, 1) translateY(-35px);
+        transform: scale(.9, 1) translateY(-18px);
     }
 
     50% {
@@ -109,7 +109,7 @@
     }
 
     58% {
-        transform: scale(1, 1) translateY(-7px);
+        transform: scale(1, 1) translateY(-2px);
     }
 
     65% {
@@ -199,6 +199,6 @@
     .downloadCVButton {
         font-size: 13px;
         margin:0 auto;
-        padding: -9px 2px 18px 2px;
+        padding: 9px 2px 18px 2px;
     }
 }
