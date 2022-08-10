@@ -12,10 +12,10 @@
     position: -webkit-sticky;
 }
 
-.MainContainer {
+/* .MainContainer {
     display: inline;
     background-color: rgba(156, 160, 159, 0.123);
-}
+} */
 
 .SecContainer {
     padding-top: 29px;
@@ -34,7 +34,6 @@
     font-family: 'Times New Roman", Times, serif';
     font-size: 45px;
     font-weight: 400;
-    /* cursor: pointer; */
     width: fit-content;
     margin: 0 auto;
     /* animation: bounce 1s ease infinite; */

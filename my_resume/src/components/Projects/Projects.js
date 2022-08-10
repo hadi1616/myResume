@@ -3,7 +3,7 @@ import './Projects.css'
 import Slide from "react-reveal";
 import Work from '../Work/Work'
 import WP from '../WP/WP'
-import { notification } from 'antd';
+// import { notification } from 'antd';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

@@ -20,10 +20,10 @@ function Experience() {
             <h1 className={'ExperienceH1'}>Experience</h1>
             </Slide>
             <Slide right duration={1100}>
-            <ExperienceComponent workTitle={`${experienceData.workTitle.first}`} workDescription={`${experienceData.workDescription.first}`} className={'firstJob'}/>
+            <ExperienceComponent workTitle={experienceData.workTitle.first} workDescription={experienceData.workDescription.first} className={'firstJob'}/>
             </Slide>
             <Slide left duration={1100}>
-            <ExperienceComponent workTitle={`${experienceData.workTitle.second}`} workDescription={`${experienceData.workDescription.second}`} className={'secondJob'}/>
+            <ExperienceComponent workTitle={experienceData.workTitle.second} workDescription={experienceData.workDescription.second} className={'secondJob'}/>
             </Slide>
         </div>
     )

@@ -10,6 +10,8 @@ import Bounce from 'react-reveal/Bounce';
 function Home() {
 
     const [fullName, setFullName] = React.useState("Hadi Moallem .")
+    const [whoIam, setWhoIam] = React.useState("I'm a Full Stack developer.")
+    const [knowledge, setknowledge] = React.useState(" I Have knowledge and experience in React, JavaScript, Node.js, Express.js,CSS and SCSS  also I am with a high level of self-learning skills. Looking for a junior position.")
     let history = useHistory();
 
     function linkedinRedirect() {
@@ -23,17 +25,17 @@ function Home() {
     }
 
     return (
-        <div className={'MainContainer'}>
 
             <div className={'SecContainer'}>
                 <div className={'H12'}>
                     <Bounce top cascade>
-                        <h1 className={'homePageTitle'} /*onClick={(e) => { history.push("/about") }}*/>{`I'm ${fullName}`}</h1>
+                        <h1 className={'homePageTitle'}>{`I'm ${fullName}`}</h1>
                     </Bounce>
 
 
-                    <p className={"personalDescription"}> I'm a Full Stack developer.<br />
-                        I Have knowledge and experience in React, JavaScript, Node.js, Express.js,CSS and SCSS  also I am with a high level of self-learning skills. Looking for a junior position.</p>
+                    <p className={"personalDescription"}> {whoIam}<br />
+                       {knowledge}
+                    </p>
                 </div>
                 <hr size="2.5" width="45%" color="#f5a25a" className={'hrLine'} />
                 <div className={'links'}>
@@ -43,9 +45,13 @@ function Home() {
 
                 </div>
             </div>
-        </div>
     )
 }
 export default Home
 
 
+
+
+
+
+{/* <h1 className={'homePageTitle'} onClick={(e) => { history.push("/about") }}>{`I'm ${fullName}`}</h1> */}

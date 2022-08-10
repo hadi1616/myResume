@@ -1,8 +1,5 @@
 :root {
     --h1Colors: #f5a25a;
-
-
-
 }
 
 .aboutMeContainer {
@@ -65,6 +62,7 @@
     display: flex;
     flex-grow: inherit;
     flex-direction: column;
+    margin-bottom: 4rem;
 }
 
 
@@ -82,17 +80,43 @@
 
 .downloadButton {
 
-    /* width: 77px;
-    height: 77px; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: transform 0.8s;
     background-color: #272727;
-    /* background-color: #988c81; */
     border-style: none;
     text-decoration: none;
-    /* border-radius: 8%; */
     margin: 0 auto;
-    /* margin-bottom: 15px; */
+    animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1) translateY(-35px);
+    }
+
+    50% {
+        transform: scale(1, .9) translateY(0);
+    }
+
+    58% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+
+    65% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
 }
 
 
@@ -111,17 +135,14 @@
 
 .downloadButton:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    animation: bounce 0s ease infinite;
 }
 
 .downloadCVButton {
-    /* color: rgb(231, 227, 227); */
     color: #E8A87C;
     font-size: 16px;
     font-style: oblique;
-    /* margin-right: 20px; */
-    /* align-items: center; */
-
 }
 
 
@@ -148,6 +169,10 @@
 
     .lookingFor {
         font-size: 16px;
+    }
+
+    .ContactMeContainer {
+        margin-bottom: 1.5rem;
     }
 
     .contactMeH1 {

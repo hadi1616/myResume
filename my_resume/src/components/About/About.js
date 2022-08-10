@@ -14,6 +14,8 @@ function About() {
 
 
         const [selfInformation, setSelfInformation] = React.useState({ fullName: 'Full Name : ', name: 'Hadi Moallem', address: 'Address : ', livingLocation: 'Haifa', phone: 'Phone Number : ', phoneNumber: '0528112984', Email: 'Email : ', gmail: 'hadimoallem1999@gmail.com' });
+        const [aboutMe ,setAbouMe] = React.useState({First:'Practical engineer with high motivation and passion for succeeding and  progressing, excellent',Sec:'communication skills with team members , high responsibility.',Third:'Looking for entry level positions in the Front-end , Back-end , Full stack developer'})
+
 
         function pdfGenerate() {
                 var doc = new jsPDF();
@@ -54,7 +56,7 @@ function About() {
                                         </div>
 
                                         <div className={'aboutMe'}>
-                                                <p>Practical engineer with high motivation and passion for succeeding and  progressing, excellent <br />communication skills with team members , high responsibility.<br /> <div className={'lookingFor'}>Looking for entry level positions in the Front-end , Back-end , Full stack developer</div></p>
+                                                <p>{aboutMe.First} <br />{aboutMe.Sec}<br /> <div className={'lookingFor'}>{aboutMe.Third}</div></p>
                                         </div>
 
 
@@ -71,7 +73,7 @@ function About() {
                                         </div>
 
 
-                                        <Button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}> Download Resume</a></Button>
+                                        <button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}> Download Resume</a></button>
 
                                 </div>
                         </div>
@@ -80,3 +82,7 @@ function About() {
 }
 
 export default About;
+
+
+
+{/* <Button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}> Download Resume</a></Button> */}
