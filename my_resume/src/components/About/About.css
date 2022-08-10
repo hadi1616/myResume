@@ -145,7 +145,8 @@
     color: #E8A87C;
     font-size: 16px;
     font-style: oblique;
-    padding: -9px 2px 18px 2px;
+    /* display: grid; */
+    /* padding: -9px 2px 18px 2px; */
 }
 
 
@@ -199,6 +200,6 @@
     .downloadCVButton {
         font-size: 13px;
         margin:0 auto;
-        padding: 9px 2px 18px 2px;
+        display: grid;
     }
 }
