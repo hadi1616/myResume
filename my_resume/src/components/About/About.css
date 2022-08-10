@@ -86,6 +86,8 @@
     border-style: none;
     text-decoration: none;
     margin: 0 auto;
+    width: 120px;
+    height: 120px;
     animation: bounce 1s ease infinite;
 }
 
@@ -143,6 +145,8 @@
     color: #E8A87C;
     font-size: 16px;
     font-style: oblique;
+    width: 120px;
+    height: 120px;
 }
 
 
