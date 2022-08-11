@@ -4,11 +4,11 @@
     justify-content: space-around;
     /* height: 24px; */
     background-color: rgba(156, 160, 156, 0);
-    animation: fadeIn 9s;
-    -webkit-animation: fadeIn 9s;
-    -moz-animation: fadeIn 9s;
-    -o-animation: fadeIn 9s;
-    -ms-animation: fadeIn 9s;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
 }
 
 .mainContainer {
