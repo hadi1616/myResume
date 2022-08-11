@@ -63,12 +63,12 @@ function About() {
                                         <h1 className={'contactMeH1'}><LightSpeed top cascade>Contact Info</LightSpeed></h1>
 
                                         <div className={'ContactMeContainer'}>
-                                                <p className={'ContactMeSecContainer'}>
+                                                {/* <p className={'ContactMeSecContainer'}> */}
                                                         <span className={'ContactMe'}>{selfInformation.name}</span>
                                                         <span className={'ContactMe'}>{selfInformation.livingLocation}</span>
                                                         <span className={'ContactMe'}>{selfInformation.phoneNumber}</span>
                                                         <span className={'ContactMe'}>{selfInformation.gmail}</span>
-                                                </p>
+                                                {/* </p> */}
 
                                         </div>
 

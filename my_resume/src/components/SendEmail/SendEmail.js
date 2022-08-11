@@ -13,13 +13,23 @@ export default function SendEmail() {
     const [invitation ,setInvitation] =React.useState('Invitation for an interview ?')
 
 
-    function sendEmail(e) {
+    function feildsValidation()
+    {
+        if(myData.Name!=='' && myData.yourEmail!=='' && myData.phone!=='' && myData.message!==''){
+            history.push('/');
+            alert('successfully send')
+            sendEmail()
+        }
 
+        else{
+            alert('you must fill all the feilds')
+        }
+    }
+
+    function sendEmail(e) {
         emailjs.send('gmail', 'template_b517o1n', {myData}, 'user_DOD2kZ9dURw4SQOsGonND')
             .then((result) => {
                 console.log(result.text);
-                myData.Name && myData.yourEmail && myData.phone && myData.message ? alert('successfully send') : alert('you must fill all the feilds')
-                history.push('/')
             }, (error) => {
                 console.log(error.text);
             });
@@ -32,22 +42,22 @@ export default function SendEmail() {
             <img alt='interview_Invitation' src={arrow} className={'arrowImg'} />
             <div>
                 <label className={'gmailLabels'}>Name : </label>
-                <input type="text" name="name" value={myData.Name} onChange={e => (setData(myData.Name(e.target.value)))} required="true" className={'otherInput'} />
+                <input type="text" name="name" value={myData.Name} onChange={e => (setData({Name:e.target.value}))} required="true" className={'otherInput'} />
             </div>
 
             <div>
                 <label className={'gmailLabels'}>Your Email  : </label>
-                <input type="email" name="email" value={myData.yourEmai} onChange={e => (setData(myData.yourEmai(e.target.value)))} required="true" className={'otherInput'} />
+                <input type="email" name="email" value={myData.yourEmai} onChange={e => (setData({yourEmail:e.target.value}))} required="true" className={'otherInput'} />
             </div>
             <div>
                 <label className={'gmailLabels'}>Phone : </label>
-                <input type="text" name="phone" value={myData.phone} onChange={e => (setData(myData.phone(e.target.value)))} required="true" className={'otherInput'} />
+                <input type="text" name="phone" value={myData.phone} onChange={e => (setData({phone:e.target.value}))} required="true" className={'otherInput'} />
             </div>
             <div>
                 <label className={'gmailLabels'}>Message : </label>
-                <textarea name="message" value={myData.message} onChange={e => (setData(myData.message(e.target.value)))} required="true" className={'gmailInput'} placeholder='resizable' />
+                <textarea name="message" value={myData.message} onChange={e => (setData({message:e.target.value}))} required="true" className={'gmailInput'} placeholder='resizable' />
             </div>
-            <img alt='send_BTN' className={'imgButton'} onClick={sendEmail} src={sendButton} />
+            <img alt='send_BTN' className={'imgButton'} onClick={feildsValidation} src={sendButton} />
         </form >
     );
 }
