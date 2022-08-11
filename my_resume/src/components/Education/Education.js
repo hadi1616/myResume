@@ -24,7 +24,7 @@ function Education() {
     { bgcolor: '#9D315A', completed: 72, language: 'C' },
     { bgcolor: '#E3B448', completed: 68, language: 'PHP' },
   ];
-
+//i should make the coding language appearing slowly
   return (
     <>
       <div className='mainContainer'>

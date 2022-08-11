@@ -44,40 +44,39 @@ function About() {
         const classes = useStyles();
 
         return (
-                <>
-                        <div className='aboutMeContainer'>
-                                <Slide top duration={1100}>
-                                        <h1 className={'aboutmeH1'}>About Me</h1>
-                                </Slide>
-                                <div className={'container'}>
+                <div className='aboutMeContainer'>
+                        <Slide top duration={1100}>
+                                <h1 className={'aboutmeH1'}>About Me</h1>
+                        </Slide>
+                        <div className={'container'}>
 
-                                        <div className={'AvatarDiv'}>
-                                                <Avatar alt="Remy Sharp" src={personalImg} className={classes.large} />
-                                        </div>
+                                <div className={'AvatarDiv'}>
+                                        <Avatar alt="Remy Sharp" src={personalImg} className={classes.large} />
+                                </div>
 
-                                        <div className={'aboutMe'}>
-                                                <p>{aboutMe.First} <br />{aboutMe.Sec}<br /> <div className={'lookingFor'}>{aboutMe.Third}</div></p>
-                                        </div>
-
-
-                                        <h1 className={'contactMeH1'}><LightSpeed top cascade>Contact Info</LightSpeed></h1>
-
-                                        <div className={'ContactMeContainer'}>
-                                                {/* <p className={'ContactMeSecContainer'}> */}
-                                                        <span className={'ContactMe'}>{selfInformation.name}</span>
-                                                        <span className={'ContactMe'}>{selfInformation.livingLocation}</span>
-                                                        <span className={'ContactMe'}>{selfInformation.phoneNumber}</span>
-                                                        <span className={'ContactMe'}>{selfInformation.gmail}</span>
-                                                {/* </p> */}
-
-                                        </div>
+                                {/* <div className={'aboutMe'}> */}
+                                        <p className={'aboutMe'}>{aboutMe.First} <br />{aboutMe.Sec}<br /> <div className={'lookingFor'}>{aboutMe.Third}</div></p>
+                                {/* </div> */}
 
 
-                                        <button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}> Download Resume</a></button>
+                                <h1 className={'contactMeH1'}><LightSpeed top cascade>Contact Info</LightSpeed></h1>
+
+                                <div className={'ContactMeContainer'}>
+                                        {/* <p className={'ContactMeSecContainer'}> */}
+                                                <span className={'ContactMe'}>{selfInformation.name}</span>
+                                                <span className={'ContactMe'}>{selfInformation.livingLocation}</span>
+                                                <span className={'ContactMe'}>{selfInformation.phoneNumber}</span>
+                                                <span className={'ContactMe'}>{selfInformation.gmail}</span>
+                                        {/* </p> */}
 
                                 </div>
+
+
+                                <button onClick={pdfGenerate} className={'downloadButton'} > <a style={{ textDecoration: 'none' }} href='./Hadi_Moallem_CV(3).pdf' download='Hadi_Moallem_CV.pdf' className={'downloadCVButton'}> Download Resume</a></button>
+
                         </div>
-                </>
+                </div>
+             
         )
 }
 
