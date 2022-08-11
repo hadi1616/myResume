@@ -78,6 +78,19 @@
     font-weight: 400;
 }
 
+.ContactMe {
+    padding-left: 34px;
+    color: rgba(245, 243, 239, 0.836);
+    display: flex;
+    padding-bottom: 3px;
+    margin: 3px 0 0 0;
+}
+
+.infoAboutMe {
+    color: lightcoral;
+}
+
+
 .downloadButton {
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -86,8 +99,8 @@
     border-style: none;
     text-decoration: none;
     margin: 0 auto;
-    width: 120px;
-    height: 120px;
+    /* width: 120px;
+    height: 120px; */
     animation: bounce 1s ease infinite;
 }
 
@@ -119,19 +132,6 @@
     100% {
         transform: scale(1, 1) translateY(0);
     }
-}
-
-
-.ContactMe {
-    padding-left: 34px;
-    color: rgba(245, 243, 239, 0.836);
-    display: flex;
-    padding-bottom: 3px;
-    margin: 3px 0 0 0;
-}
-
-.infoAboutMe {
-    color: lightcoral;
 }
 
 
@@ -186,8 +186,8 @@
     }
 
     .downloadButton {
-        width: 73px;
-        height: 73px;
+        /* width: 73px;
+        height: 73px; */
         margin-bottom: -8px;
     }
 
