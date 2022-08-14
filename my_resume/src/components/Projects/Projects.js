@@ -57,11 +57,11 @@ function Works() {
                     <WP  workTitle={workProps.workTitle.sixth} websiteLink={workProps.websiteLink.sixth} workDescription={workProps.workDescription.sixth}/>
                 </Slide>
 
-                <Slide bottom duration={1100}>
+                <Slide top duration={1100}>
                     <Work workTitle={workProps.workTitle.furth} githubLink={workProps.githubLink.furth} websiteLink={workProps.websiteLink.furth} workDescription={workProps.workDescription.furth} />
                 </Slide>
 
-                <Slide top duration={1100}>
+                <Slide bottom duration={1100}>
                     <Work workTitle={workProps.workTitle.fifth} githubLink={workProps.githubLink.fifth} websiteLink={workProps.websiteLink.fifth} workDescription={workProps.workDescription.fifth} />
                 </Slide>
 

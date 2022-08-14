@@ -2,7 +2,7 @@ import React from "react";
 import '../progress/Progress.css'
 
 const ProgressBar = (props) => {
-  const { bgcolor, completed, language } = props;
+  const { bgcolor, completed, language, className } = props;
 
   const containerStyles = {
     height: '100%',
@@ -31,7 +31,7 @@ const ProgressBar = (props) => {
 
   return (
 
-    <div style={containerStyles}>
+    <div style={containerStyles} className={className}>
       <div style={fillerStyles}>
         <span style={labelStyles} className={'title'}>{`${language}`}</span>
       </div>
