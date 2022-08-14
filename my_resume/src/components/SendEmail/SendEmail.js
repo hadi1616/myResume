@@ -3,7 +3,8 @@ import emailjs from 'emailjs-com';
 import './SendEmail.css';
 import { useHistory } from "react-router-dom";
 import sendButton from '../../image/send-icon.png'
-import arrow from '../../image/down-arrow-icon.jpg'
+import arrow from '../../image/bottomArrow.png'
+
 
 
 export default function SendEmail() {
