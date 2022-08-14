@@ -5,91 +5,104 @@
     /* height: 55px; */
     padding-bottom: 2px;
 }
-.P0{
+
+.P0 {
     animation: fadeIn 1s;
     -webkit-animation: fadeIn 1s;
     -moz-animation: fadeIn 1s;
     -o-animation: fadeIn 1s;
     -ms-animation: fadeIn 1s;
 }
-.P2{
+
+.P2 {
     animation: fadeIn 1.6s;
     -webkit-animation: fadeIn 1.6s;
     -moz-animation: fadeIn 1.6s;
     -o-animation: fadeIn 1.6s;
     -ms-animation: fadeIn 1.6s;
 }
-.P4{
+
+.P4 {
     animation: fadeIn 2.3s;
     -webkit-animation: fadeIn 2.3s;
     -moz-animation: fadeIn 2.3s;
     -o-animation: fadeIn 2.3s;
     -ms-animation: fadeIn 2.3s;
 }
-.P6{
+
+.P6 {
     animation: fadeIn 2.9s;
     -webkit-animation: fadeIn 2.9s;
     -moz-animation: fadeIn 2.9s;
     -o-animation: fadeIn 2.9s;
     -ms-animation: fadeIn 2.9s;
 }
-.P8{
+
+.P8 {
     animation: fadeIn 3.4s;
     -webkit-animation: fadeIn 3.4s;
     -moz-animation: fadeIn 3.4s;
     -o-animation: fadeIn 3.4s;
     -ms-animation: fadeIn 3.4s;
 }
-.P10{
+
+.P10 {
     animation: fadeIn 3.9s;
     -webkit-animation: fadeIn 3.9s;
     -moz-animation: fadeIn 3.9s;
     -o-animation: fadeIn 3.9s;
     -ms-animation: fadeIn 3.9s;
 }
-.P1{
+
+.P1 {
     animation: fadeIn 4.5s;
     -webkit-animation: fadeIn 4.5s;
     -moz-animation: fadeIn 4.5s;
     -o-animation: fadeIn 4.5s;
     -ms-animation: fadeIn 4.5s;
 }
-.P3{
+
+.P3 {
     animation: fadeIn 5.1s;
     -webkit-animation: fadeIn 5.1s;
     -moz-animation: fadeIn 5.1s;
     -o-animation: fadeIn 5.1s;
     -ms-animation: fadeIn 5.1s;
 }
-.P5{
+
+.P5 {
     animation: fadeIn 5.9s;
     -webkit-animation: fadeIn 5.9s;
     -moz-animation: fadeIn 5.9s;
     -o-animation: fadeIn 5.9s;
     -ms-animation: fadeIn 5.9s;
 }
-.P7{
+
+.P7 {
     animation: fadeIn 6.5s;
     -webkit-animation: fadeIn 6.5s;
     -moz-animation: fadeIn 6.5s;
     -o-animation: fadeIn 6.5s;
     -ms-animation: fadeIn 6.5s;
 }
-.P9{
+
+.P9 {
     animation: fadeIn 7s;
     -webkit-animation: fadeIn 7s;
     -moz-animation: fadeIn 7s;
     -o-animation: fadeIn 7s;
     -ms-animation: fadeIn 7s;
 }
-.P11{
+
+.P11 {
     animation: fadeIn 7.6s;
     -webkit-animation: fadeIn 7.6s;
     -moz-animation: fadeIn 7.6s;
     -o-animation: fadeIn 7.6s;
     -ms-animation: fadeIn 7.6s;
 }
-.P12{
+
+.P12 {
     animation: fadeIn 8.8s;
     -webkit-animation: fadeIn 8.8s;
     -moz-animation: fadeIn 8.8s;
