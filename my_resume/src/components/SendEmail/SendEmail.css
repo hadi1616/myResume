@@ -49,6 +49,7 @@ h1 {
     width: 300px;
     border-radius: 6px;
     height: 21px;
+    background-color: #acacac;
 }
 
 .gmailInput {
@@ -57,4 +58,5 @@ h1 {
     min-width: 300px;
     min-height: 70px;
     max-height: 350px;
+    background-color: #acacac;
 }
