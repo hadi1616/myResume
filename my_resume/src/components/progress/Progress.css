@@ -110,16 +110,9 @@
     -ms-animation: fadeIn 8.8s;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 969px) {
 
     .ProgressBar {
         font-size: small;
     }
-
-    .title {
-        display: flex;
-        justify-content: center;
-        height: 15px;
-    }
-
 }
