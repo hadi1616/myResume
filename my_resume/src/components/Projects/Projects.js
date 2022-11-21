@@ -65,7 +65,7 @@ function Works() {
                     <Work workTitle={workProps.workTitle.fifth} githubLink={workProps.githubLink.fifth} websiteLink={workProps.websiteLink.fifth} workDescription={workProps.workDescription.fifth} />
                 </Slide>
 
-                <ToastContainer autoClose={5500}/>
+                <ToastContainer autoClose={3500}/>
             </div>
         </div>
     )

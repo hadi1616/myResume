@@ -131,6 +131,7 @@
     height:fit-content;
     background-color: inherit;
     border: none;
+    margin: -22px 0 25px 0 ;
   }
   .downloadCVButton{
     padding: 19px 0 19px 0;

@@ -36,7 +36,6 @@
    transition: all 0.3s ease-in-out;
    z-index: 10;
    white-space: nowrap;
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
    color:aliceblue;
  }
  .indicator {
@@ -83,6 +82,10 @@
     .header{
         padding: 10px 0px 17px 0px;
     }
+    .nav-item{
+      padding: 0.35rem;
+    }
+
     .main-nav {
         display: flex;
         margin: auto;
